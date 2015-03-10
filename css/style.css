@@ -1,4 +1,9 @@
 @charset "utf-8";
+@import url(./lato-font/stylesheet.css);
+
+body {
+    font-family: latoregular, Proximanova;
+}
 
 .hideme {
     display: none !important;
@@ -45,6 +50,7 @@ a:hover {
     margin-top: -0.5em;
     box-sizing: border-box;
     z-index: 111;
+    font-family: "latobold";
 }
 
 .lang-en {
@@ -78,9 +84,11 @@ a:hover {
     display: inline-block;
     float: left;
     width: 16%;
-    margin-right: 20px;
-    padding-left: 15px;
-    font-size: 15px;
+    margin-right: 18px;
+    font-size: 12.5px;
+    border: none;
+    padding-left: 8px;
+    font-family: "latoitalic";
 }
 
 .book-form form {
@@ -143,6 +151,7 @@ a:hover {
     color:#fff;
     font-size: 1em;
     font-weight: bold;
+    font-family: "latobold";
 }
 
 #web-navs .w {
@@ -162,6 +171,7 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
     padding: 20px 0px;
+    font-family: "latobold";
 }
 
 #web-navs .w > p {
@@ -226,6 +236,7 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
     line-height: 150%;
+    font-family: "latobold";
 }
 
 #locations .shanghai-thumb h4.t2 {
@@ -234,6 +245,7 @@ a:hover {
     text-transform: uppercase;
     line-height: 150%;
     color: #848789;
+      font-family: "黑体";
 }
 
 #locations .line-1 {
@@ -317,10 +329,11 @@ a:hover {
 }
 
 #news li > h4 {
-    font-size: 1.2em;
-    color: #fff;
-    padding: 43px 0px;
-    text-align: left;
+  font-size: 1em;
+  color: #fff;
+  padding: 35px 0px;
+  text-align: left;
+  font-family: "latobold";
 }
 
 #news li > p {
@@ -655,8 +668,9 @@ td .ui-state-active, td .ui-state-hover {
   background: url(../misc/next-slide-btn.png);
   position: absolute;
   right: 1%;
-  top: 30%;
+  top: 50%;
   z-index: 111;
+  height: -33px;
   background-repeat: no-repeat;
 }
 
@@ -667,7 +681,8 @@ td .ui-state-active, td .ui-state-hover {
   background: url(../misc/prev-slide-btn.png);
   position: absolute;
   left: 1%;
-  top: 30%;
+  top: 50%;
+  margin-top: -33px;
   z-index: 111;
   background-repeat: no-repeat;
 }
@@ -680,7 +695,7 @@ td .ui-state-active, td .ui-state-hover {
   position: absolute;
   left: 50%;
   margin-left: -30px;
-  bottom: 20%;
+  bottom: 17.5%;
   z-index: 111;
   background-repeat: no-repeat;
 }
@@ -793,14 +808,16 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .res-con3 {
-        border-top: 1px solid #5d5555;
-  padding-top: 7px !important;
-
+    border-top: 1px solid #5d5555;
+    padding-top: 7px !important;
 }
-
 
 .list-con-res .llast{
     margin-right: 0px;
+}
+
+.list-con-res img {
+    width: 100%;
 }
 
 
