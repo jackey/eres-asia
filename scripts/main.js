@@ -55,16 +55,21 @@
 })(jQuery);
 
 (function ($) {
+	
+	$(window).load(function () {
+        $("#home-slideshow").cycle({
+        	prev: '.home-slideshow .prev',
+        	next: '.home-slideshow .next'
+        });
+	});
+
     $(function () {
         $(".calender").datepicker({
             numberOfMonths: 2,
             showButtonPanel: true
         });
 
-        $("#home-slideshow").cycle({
-        	prev: '.home-slideshow .prev',
-        	next: '.home-slideshow .next'
-        });
+
 
         $('.down').click(function () {
         	$.scrollTo("#web-navs", 500);
