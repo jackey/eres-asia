@@ -35,6 +35,23 @@
 		$('body').find('>.more').remove();
 		self.data('more_dom', null);
 	}
+
+	$.fn.animateWatcher = function () {
+		var el = $(this),
+			cls = 'animate-start';
+
+		return {
+			start: function () {
+				el.addClass(cls);
+			},
+			isRunning: function () {
+				return el.hasClass(cls);
+			},
+			stop: function () {
+				el.removeClass(cls);
+			}
+		};
+	}
 })(jQuery);
 
 (function ($) {
@@ -58,6 +75,33 @@
         		$(this).galleryHideMore();
         	});
         	$(this).galleryShowMore();
+        });
+
+        $("#residences .table").click(function () {
+        	var cls = 'clicked',
+        		el = $(this),
+        		watcher = el.animateWatcher();
+
+        	// 动画已经运行了
+        	if (watcher.isRunning()) {
+        		return;
+        	}
+
+        	// 已经收起状态下， 需要打开
+        	if (el.hasClass(cls)) {
+        		el.removeClass(cls);
+        		el.next('.list-con-res').removeAttr('style');
+        	}
+        	// 打开状态下，需要收起
+        	else {
+        		el.addClass('clicked');
+        		watcher.start();
+	        	el.next('.list-con-res').animate({
+	        		height: 0
+	        	}, 500, function () {
+	        		watcher.stop();
+	        	});
+        	}
         });
 
 

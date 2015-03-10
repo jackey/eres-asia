@@ -701,6 +701,114 @@ td .ui-state-active, td .ui-state-hover {
     background-color: rgba(3,3,3,0.3);
 }
 
+#residences .table {
+    cursor: pointer;
+}
+
+.btitle {
+    height: 140px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.btitle h4 {
+    line-height: 150%;
+}
+
+.btitle .star-1 {
+      top: 100%;
+}
+
+.btitle .line-btm {
+    width: 2.5em;
+    height: 1px;
+    background-image: url(../misc/line-1.png);
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.list-con-res {
+    background-color: #231816;
+    overflow: hidden;
+}
+
+.list-con-res ul {
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-bottom: 4em;
+}
+
+.list-con-res .listss {
+      margin-top: -4em;
+}
+
+.list-con-res li {
+  width: 23.1%;
+  height: 345px;
+  background: #534948;
+  overflow: hidden;
+  float: left;
+  margin-right: 2.5%;
+  margin-top: 3em;
+}
+
+.list-con-res .res-con2 {
+    padding: 10px 8px;
+}
+
+.res-con2 .title {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.res-con2 .at {
+  font-size: 1em;
+  color: #fff;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+
+.res-con2 p {
+  color: #737273;
+  margin-top: 8px;
+  width: 100%;
+  overflow: hidden;
+  height: 1em;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+}
+
+.res-con2 .desc {
+  color: #737273;
+  margin-top: 9px;
+  display: inline-block;
+}
+
+.res-con3 {
+        border-top: 1px solid #5d5555;
+  padding-top: 7px !important;
+
+}
+
+
+.list-con-res .llast{
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
 
 
 
