@@ -61,15 +61,21 @@
         	prev: '.home-slideshow .prev',
         	next: '.home-slideshow .next'
         });
+
 	});
 
     $(function () {
+
+    	var sslistw = $(".ss-list").width();
+        $(".ss-list").cycle({
+        	width: sslistw
+        });
+
+
         $(".calender").datepicker({
             numberOfMonths: 2,
             showButtonPanel: true
         });
-
-
 
         $('.down').click(function () {
         	$.scrollTo("#web-navs", 500);
@@ -108,6 +114,8 @@
 	        	});
         	}
         });
+
+        $("select.guest").selectmenu().selectmenu('menuWidget').addClass('selectbox');
 
 
     });

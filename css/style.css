@@ -78,7 +78,7 @@ a:hover {
     z-index: 111;
 }
 
-.book-form input{
+.book-form input, .book-form select{
     height: 50px;
     line-height: 50px;
     display: inline-block;
@@ -129,11 +129,12 @@ a:hover {
 
 #web-navs .navs {
     margin: 30px 135px;
+    margin-bottom: 0px;
 }
 
 #web-navs li {
     float: left;
-    width: 16.6%;
+    width: 33.33%;
     text-align: center;
     font-size: 1em;
     text-transform: uppercase;
@@ -437,6 +438,7 @@ a:hover {
     float: left;
     padding-left: 10px;
     border: none;
+    font-family: "latoitalic";
 }
 
 #footer-brands .form a {
@@ -820,11 +822,105 @@ td .ui-state-active, td .ui-state-hover {
     width: 100%;
 }
 
+.guest-c .ui-selectmenu-button {
+      height: 50px;
+      line-height: 50px;
+      background: #fff;
+      border-radius: 0px;
+      float: left;
+      width: 16% !important;
+      background-image: url('../misc/guest-icon.png');
+      background-repeat: no-repeat;
+      background-position-x: right;
+      background-position-y: center;
+      border-right: 0px;
+      margin-right: 18px;
+}
 
+.guest-c .ui-selectmenu-button:focus {
+    border:none;
+    outline: none;
+}
 
+.guest-c .ui-selectmenu-button .ui-selectmenu-text {
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding: 0px;
+  padding-left: 8px;
+  font-size: 12.5px;
+  font-family: "latoitalic";
+  color: #999;
+  font-style: normal;
+  font-weight: normal;
+}
 
+.guest-c .ui-selectmenu-button  .ui-icon {
+    display: none !important;
+}
 
+.ui-selectmenu-menu .selectbox{
+  border-radius: 0px;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+}
 
+.ui-selectmenu-menu {
+    z-index: 111;
+}
+
+.ui-selectmenu-menu .selectbox > li {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.875em;
+    cursor: pointer;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 0.375em;
+    padding-right: 2.375em;
+    min-height: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+    white-space: nowrap;
+    list-style: none;
+    background: #fff;
+    color: #000;
+    border: none;
+}
+
+.ui-selectmenu-menu .selectbox > li.ui-state-focus {
+    background:#eee;
+}
+
+.navs .menu2, .navs .menu1 {
+  float: left;
+  width: 33.33%;
+}
+
+.navs .menu1 {
+     margin-left: -3%;
+}
+
+.navs .menu2 {
+     margin-left: 3%;
+}
+
+.navs .logo-menu {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+.navs .logo-menu img {
+    display: inline-block;
+    margin-top: -28px;
+      margin-left: 15%;
+}
 
 
 
