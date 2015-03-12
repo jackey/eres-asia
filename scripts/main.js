@@ -61,16 +61,41 @@
         	prev: '.home-slideshow .prev',
         	next: '.home-slideshow .next'
         });
-
 	});
 
     $(function () {
 
     	var sslistw = $(".ss-list").width();
-        $(".ss-list").cycle({
-        	width: sslistw
-        });
+        // $(".ss-list").cycle({
+        // 	fit: true
+        // });
 
+		$("#web-navs .navs >ul > li").hover(function () {
+			var submenu = $(this).find('.submenu');
+
+			var parentTop = $('.navs').offset()['top'];
+			var selfTop = $(this).offset()['top'];
+
+			var top = -(selfTop - parentTop + submenu.outerHeight());
+			submenu.css({
+				top: top,
+				width: $(this).width(),
+			});
+			$('.submenu').hide();
+			submenu.css({display: 'block'});
+		});
+
+        $('body').mousemove(function (event) {
+        	var target = $(event.target);
+        	console.log(target);
+
+        	if (target.hasClass('navs') || target.parents('.navs').size() > 0) {
+        		//console.log('is navs');
+        	}
+        	else {
+        		$('.submenu').hide();
+        	}
+        });
 
         $(".calender").datepicker({
             numberOfMonths: 2,
@@ -114,6 +139,8 @@
 	        	});
         	}
         });
+
+
 
         $("select.guest").selectmenu().selectmenu('menuWidget').addClass('selectbox');
 

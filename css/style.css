@@ -125,11 +125,12 @@ a:hover {
 
 #web-navs {
     background: #231816;
+    overflow: visible;
 }
 
 #web-navs .navs {
-    margin: 30px 135px;
     margin-bottom: 0px;
+      padding: 30px 135px;
 }
 
 #web-navs li {
@@ -139,9 +140,9 @@ a:hover {
     font-size: 1em;
     text-transform: uppercase;
     color: #fff;
-    background-image: url(../misc/yuandian.png);
     background-repeat: no-repeat;
     background-position: right center;
+      position: relative;
 }
 
 #web-navs li.last {
@@ -150,13 +151,13 @@ a:hover {
 
 #web-navs a {
     color:#fff;
-    font-size: 1em;
-    font-weight: bold;
-    font-family: "latobold";
+    font-size: 0.8em;
+  font-family: "latobold";
+    word-spacing: 0.2em;
 }
 
 #web-navs .w {
-    margin-bottom: 80px;
+      padding-bottom: 80px;
 }
 
 #web-navs .w > img {
@@ -597,15 +598,13 @@ a:hover {
 .calender {
     background-image: url('../misc/calender-icon.png');
     background-repeat: no-repeat;
-    background-position-x: 98%;
-    background-position-y: center;
+    background-position: 98% 50%;
 }
 
 .guest {
     background-image: url('../misc/guest-icon.png');
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center;
+    background-position:center right;
     border-right: 0px;
 }
 
@@ -831,8 +830,7 @@ td .ui-state-active, td .ui-state-hover {
       width: 16% !important;
       background-image: url('../misc/guest-icon.png');
       background-repeat: no-repeat;
-      background-position-x: right;
-      background-position-y: center;
+      background-position: 100% 50%;
       border-right: 0px;
       margin-right: 18px;
 }
@@ -899,7 +897,7 @@ td .ui-state-active, td .ui-state-hover {
 
 .navs .menu2, .navs .menu1 {
   float: left;
-  width: 33.33%;
+    width: 42.33%;
 }
 
 .navs .menu1 {
@@ -911,16 +909,42 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .navs .logo-menu {
-  width: 33.33%;
   float: left;
   text-align: center;
+  width: 15.33%;
 }
 
 .navs .logo-menu img {
     display: inline-block;
     margin-top: -28px;
-      margin-left: 15%;
 }
+
+#footer-desc .fd-ss-2 ul a:hover, #footer-desc .fd-ss-3 ul a:hover {
+    color:#ccc;
+}
+
+.navs .submenu {
+  position: absolute;
+  background: #231816;
+  padding: 1em 2.5em;
+  z-index: 116;
+  padding-bottom: 0px;
+  left: 0%;
+  display: none;
+}
+
+#web-navs .submenu  li {
+  float: none;
+  width: 100%;
+  text-align: left;
+  padding: 1em 0px;
+  background: inherit;
+  font-size: .8em;
+}
+
+
+
+
 
 
 
