@@ -66,9 +66,10 @@
     $(function () {
 
     	var sslistw = $(".ss-list").width();
-        // $(".ss-list").cycle({
-        // 	fit: true
-        // });
+        $(".ss-list").cycle({
+        	fx: 'scrollHorz',
+        	pager: '.ss-pager',
+        });
 
 		$("#web-navs .navs >ul > li").hover(function () {
 			var submenu = $(this).find('.submenu');

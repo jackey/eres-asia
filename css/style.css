@@ -942,6 +942,39 @@ td .ui-state-active, td .ui-state-hover {
   font-size: .8em;
 }
 
+#social-con {
+      background: #534948;
+}
+
+.ss-list {
+    position: relative;
+      position: relative;
+      margin: 0 auto;
+}
+
+.ss-pager{
+  padding: 1.2em 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.ss-pager a {
+    overflow: hidden;
+    text-indent: 100px;
+      width: 1em;
+      height: 1em;
+      overflow: hidden;
+      text-indent: 100px;
+      display: inline-block;
+      background: url(../misc/pager-icon.png);
+      background-position: 16px 0;
+      background-size: cover;
+      margin-right: 0.5em;
+}
+
+.ss-pager a.activeSlide {
+      background-position: 0 0;
+}
 
 
 
