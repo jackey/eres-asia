@@ -156,6 +156,10 @@ a:hover {
     word-spacing: 0.2em;
 }
 
+#web-navs a:hover {
+    color: #ffe87f;
+}
+
 #web-navs .w {
       padding-bottom: 80px;
 }
