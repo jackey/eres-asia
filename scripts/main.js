@@ -74,13 +74,27 @@
 		$("#web-navs .navs >ul > li").hover(function () {
 			var submenu = $(this).find('.submenu');
 
+			if (submenu.size() <=0 ) return;
+
 			var parentTop = $('.navs').offset()['top'];
 			var selfTop = $(this).offset()['top'];
 
-			var top = -(selfTop - parentTop + submenu.outerHeight());
+			if (!submenu.data('width')) {
+				submenu.data('width', submenu.outerWidth());
+			}
 			submenu.css({
-				top: top,
-				width: $(this).width(),
+				width: submenu.data("width")
+			});
+			if (!submenu.data('height')) {
+				submenu.data('height', submenu.outerHeight());
+			}
+
+			console.log(submenu.outerHeight());
+			console.log(submenu.data('height'));
+
+			var top = -(selfTop - parentTop + submenu.data('height'));
+			submenu.css({
+				top: top
 			});
 			$('.submenu').hide();
 			submenu.css({display: 'block'});
@@ -88,7 +102,6 @@
 
         $('body').mousemove(function (event) {
         	var target = $(event.target);
-        	console.log(target);
 
         	if (target.hasClass('navs') || target.parents('.navs').size() > 0) {
         		//console.log('is navs');

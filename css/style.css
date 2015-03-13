@@ -134,17 +134,17 @@ a:hover {
 }
 
 #web-navs li {
-    float: left;
-    width: 33.33%;
-    text-align: center;
-    font-size: 1em;
-    text-transform: uppercase;
-    color: #fff;
-    background-repeat: no-repeat;
-    background-position: right center;
-      position: relative;
-}
-
+  float: left;
+  text-align: left;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: right center;
+  position: relative;
+  margin-right: 3%;
+} 
+ 
 #web-navs li.last {
     background: none;
 }
@@ -710,7 +710,7 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .shadow-1:hover {
-    box-shadow: 1px 0px 10px #333;
+    box-shadow: 0px 0px 20px #ffe87f;
 }
 
 .more-gallery{
@@ -901,21 +901,24 @@ td .ui-state-active, td .ui-state-hover {
 
 .navs .menu2, .navs .menu1 {
   float: left;
-    width: 42.33%;
+    width: 100%;
 }
 
 .navs .menu1 {
-     margin-left: -3%;
+      float: left;
 }
 
 .navs .menu2 {
-     margin-left: 3%;
+       float: right;
 }
 
 .navs .logo-menu {
   float: left;
   text-align: center;
-  width: 15.33%;
+    width: 202px;
+  position: absolute;
+  left: 50%;
+  margin-left: -101px;
 }
 
 .navs .logo-menu img {
@@ -924,7 +927,7 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 #footer-desc .fd-ss-2 ul a:hover, #footer-desc .fd-ss-3 ul a:hover {
-    color:#ccc;
+    color:#ffe87f;
 }
 
 .navs .submenu {
@@ -933,7 +936,7 @@ td .ui-state-active, td .ui-state-hover {
   padding: 1em 2.5em;
   z-index: 116;
   padding-bottom: 0px;
-  left: 0%;
+  left: -2.5em;
   display: none;
 }
 
@@ -963,28 +966,46 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .ss-pager a {
-    overflow: hidden;
-    text-indent: 100px;
-      width: 1em;
-      height: 1em;
-      overflow: hidden;
-      text-indent: 100px;
-      display: inline-block;
-      background: url(../misc/pager-icon.png);
-      background-position: 16px 0;
-      background-size: cover;
-      margin-right: 0.5em;
+  overflow: hidden;
+  text-indent: 100px;
+  width: .7em;
+  height: .7em;
+  overflow: hidden;
+  text-indent: 100px;
+  display: inline-block;
+  background: url(../misc/pager-icon.png);
+  background-position: .7em 0;
+  background-size: cover;
+  margin-right: 0.5em;
 }
 
 .ss-pager a.activeSlide {
       background-position: 0 0;
 }
 
+#footer-desc .fd-ss a:hover {
+  color: #ffe87f;
+}
 
+.lss2 {
+    margin-left: 1.7em;
+}
 
+#news li:hover{
+    cursor: pointer;
+}
 
+#news li:hover .tchover-1 {
+    color:#fff !important;
+}
 
+#news li:hover .shadow-2{
+    box-shadow: 0px 0px 10px #ffe87f;
+}
 
+.logo-li {
+      margin-top: -28px;
+}
 
 
 
