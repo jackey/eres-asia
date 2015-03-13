@@ -1011,4 +1011,8 @@ td .ui-state-active, td .ui-state-hover {
     background-color: #d6a700;
 }
 
+.cc4, .cc5 {
+    display: none;
+}
+
 

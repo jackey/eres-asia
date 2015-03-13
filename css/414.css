@@ -1,0 +1,104 @@
+.down, .book-form, .prev , .next, .navs {
+	display: none !important;
+}
+
+#web-navs .w > p {
+	  width: 85%;
+	  font-size: 0.9em;
+}
+
+.cc4 {
+	display: block;
+	  padding-top: 0.5em;
+}
+
+.cc4 a {
+	display: block;
+	text-align: center;
+}
+
+
+.cc4 a img {
+	display: inline;
+  	width: 10em;
+}
+
+.cc5 {
+  width: 100%;
+  text-align: center;
+  height: 2.5em;
+  line-height: 2.5em;
+  background-color: #ffe37f;
+  display: block;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+#web-navs .cc5 a {
+	  color: #53462b;
+}
+
+#locations .shanghai-thumb h4.t1 {
+	  font-size: 0.9em;
+}
+
+#locations .shanghai-thumb h4.t2 {
+	  font-size: .8em;
+}
+
+#locations .line-1{
+	width: 1.5em;
+	 margin-top: 0.1em;
+}
+
+.shanghai-thumb .icon-1 img{
+	width: 1em;
+}
+
+#news .w > img {
+	padding: 1em 0px;
+  	height: 1px;
+}
+
+#news li > p {
+	display: none;
+}
+
+#news li{
+	width: 47%;
+}
+
+#news li > h4{
+	  font-size: 0.8em;
+	  overflow: hidden;
+	  width: 100%;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
+}
+
+#news li.l-last {
+	display: none;
+}
+
+#news li:nth-child(2) {
+	float: right;
+	margin-right: 0px;
+}
+
+#news li {
+	  margin-bottom: 0em;
+}
+
+.gallery-ss li.l-1 {
+	display: none;
+}
+
+.gallery-ss li.l-2 img:nth-child(2) {
+	display: none;
+}
+
+.social-ss p{
+	  width: 95%;
+}
+
+
