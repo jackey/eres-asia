@@ -1007,5 +1007,8 @@ td .ui-state-active, td .ui-state-hover {
       margin-top: -28px;
 }
 
+.book-form .btn-book:hover {
+    background-color: #d6a700;
+}
 
 
