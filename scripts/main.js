@@ -60,6 +60,7 @@
 		$("#home-slideshow > img").each(function () {
 			$(this).removeClass('hideme');
 		});
+		
         $("#home-slideshow").cycle({
         	prev: '.home-slideshow .prev',
         	next: '.home-slideshow .next'
@@ -67,6 +68,7 @@
 	});
 
     $(function () {
+
 
     	var sslistw = $(".ss-list").width();
         $(".ss-list").cycle({
