@@ -3,3 +3,21 @@
    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#007d7161,endColorstr=#737d7161); 
    zoom: 1;
 }
+
+.book-form {
+ 	background:transparent;
+   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#0051453d,endColorstr=#7351453d);
+   zoom: 1;
+}
+
+.more-gallery {
+ 	background:transparent;
+   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000003,endColorstr=#73000003);
+   zoom: 1;
+}
+
+#locations .tableCell-2:hover {
+ 	background:transparent;
+   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#73000000);
+   zoom: 1;
+}
