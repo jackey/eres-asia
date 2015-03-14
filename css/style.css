@@ -36,6 +36,7 @@ a:hover {
     height: 46px;
     width: 200px;
     z-index: 111;
+
 }
 
 .lang {
@@ -1039,5 +1040,18 @@ td .ui-state-active, td .ui-state-hover {
 #locations .tableCell-2:hover .star-1 {
     display: none;
 }
+
+.lang a {
+    color:#fff;
+}
+
+.lang-cn #web-navs li {
+      margin-right: 5%;
+      letter-spacing: 2px;
+}
+
+
+
+
 
 
