@@ -548,12 +548,14 @@ a:hover {
 }
 
 #footer-desc .fd-ss-4 > img {
-    width: 87px;
+    width: 20%;
     float: left;
 }
 
 #footer-desc .fd-ss-4 .sss {
-    float: left;
+  float: left;
+  width: 80%;
+  overflow: hidden;
 }
 
 #footer-desc .fd-ss-4 .sss p {
@@ -575,14 +577,14 @@ a:hover {
 }
 
 .social-icons {
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 10px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .social-icons img {
     float: left;
-    margin-right: 10px;
+      margin-right: 5%;
 }
 
 #footer-desc .fd-ss-5 {
