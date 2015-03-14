@@ -152,9 +152,9 @@ a:hover {
 
 #web-navs a {
     color:#fff;
-    font-size: 0.8em;
   font-family: "latobold";
     word-spacing: 0.2em;
+    font-size: 1em;
 }
 
 #web-navs a:hover {
@@ -188,6 +188,13 @@ a:hover {
     margin: 0 auto;
     text-align: center;
     line-height: 130%;
+    font-size: 0.9em;
+}
+
+.lang-cn #web-navs .w > p {
+      text-align: left;
+  line-height: 130%;
+  text-indent: 2em;
 }
 
 .ss .cover img {
@@ -347,6 +354,7 @@ a:hover {
     color: #848789;
     text-align: left;
     line-height: 150%;
+      font-size: 0.9em;
 }
 
 .gallery-ss li {
@@ -392,6 +400,7 @@ a:hover {
     text-align: center;
     width: 60%;
     margin: 0 auto;
+    font-size: 0.9em;
 }
 
 .yuan-quan {
@@ -494,7 +503,7 @@ a:hover {
 
 #footer-desc .fd-ss a {
     color:#fff;
-    font-size: 13px;
+    font-size: 1em;
 }
 
 #footer-desc .f-navs-1 li {
@@ -537,15 +546,15 @@ a:hover {
 
 
 #footer-desc .fd-ss-2 h4 , #footer-desc .fd-ss-3 h4 {
-    font-size: 1.2em;
+    font-size: 1em;
     padding-bottom: 10px;
     color: #fff;
 }
 
 #footer-desc .fd-ss-2 ul a , #footer-desc .fd-ss-3 ul a {
     color: #79797a;
-    font-size: 1.1em;
     line-height: 120%;
+    font-size: 1em;
 }
 
 #footer-desc .fd-ss-4 > img {
@@ -567,7 +576,7 @@ a:hover {
 }
 
 #footer-desc .fd-ss-4 .sss h3 {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
@@ -957,7 +966,7 @@ td .ui-state-active, td .ui-state-hover {
   text-align: left;
   padding: 1em 0px;
   background: inherit;
-  font-size: .8em;
+  font-size: 1em;
 }
 
 #social-con {
@@ -1036,6 +1045,7 @@ td .ui-state-active, td .ui-state-hover {
 
 #locations .tableCell-2:hover {
     background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 
 #locations .tableCell-2:hover .star-1 {

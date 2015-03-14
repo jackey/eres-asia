@@ -188,5 +188,12 @@
         	}
         });
 
+        $(".tableCell-2.shadow-1").click(function () {
+        	var self = $(this);
+        	if (self.data('href')) {
+        		window.location.href = self.data('href');
+        	}
+        });
+
     });
 })(jQuery);
