@@ -1069,5 +1069,7 @@ td .ui-state-active, td .ui-state-hover {
     display: block;
 }
 
-
+.placeholder {
+    color: #a9a9a9;
+}
 
