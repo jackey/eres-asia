@@ -901,8 +901,9 @@ td .ui-state-active, td .ui-state-hover {
     white-space: nowrap;
     list-style: none;
     background: #fff;
-    color: #000;
     border: none;
+      color: #ada9a9;
+  font-family: "fanointalic";
 }
 
 .ui-selectmenu-menu .selectbox > li.ui-state-focus {
