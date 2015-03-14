@@ -685,8 +685,8 @@ td .ui-state-active, td .ui-state-hover {
   right: 1%;
   top: 50%;
   z-index: 111;
-  height: -33px;
   background-repeat: no-repeat;
+  margin-top: -33px;
 }
 
 .home-slideshow .prev {
