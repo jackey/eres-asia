@@ -22,6 +22,13 @@
 			height: self.outerHeight(),
 			'line-height': self.outerHeight() + 'px'
 		});
+		dom.data('href', self.attr('href'));
+
+		dom.click(function () {
+			if (dom.data('href')) {
+				window.location.href = dom.data('href');
+			}
+		});
 
 		$('body').append(dom);
 
@@ -33,6 +40,9 @@
 		var dom = self.data('more_dom');
 
 		$('body').find('>.more').remove();
+		if (dom) {
+			dom.data('href', null);
+		}
 		self.data('more_dom', null);
 	}
 
@@ -74,6 +84,8 @@
         $(".ss-list").cycle({
         	fx: 'scrollHorz',
         	pager: '.ss-pager',
+        	fit: true,
+        	width: $(".ss-list").width()
         });
 
 		$("#web-navs .navs >ul > li").hover(function () {
@@ -93,9 +105,6 @@
 			if (!submenu.data('height')) {
 				submenu.data('height', submenu.outerHeight());
 			}
-
-			console.log(submenu.outerHeight());
-			console.log(submenu.data('height'));
 
 			var top = -(selfTop - parentTop + submenu.data('height'));
 			submenu.css({
@@ -125,10 +134,11 @@
         	$.scrollTo("#web-navs", 500);
         });
 
-        $(".gallery-ss img").hover(function () {
-        	$(".gallery-ss img").each(function () {
+        $(".gallery-ss a").hover(function () {
+        	$(".gallery-ss a").each(function () {
         		$(this).galleryHideMore();
         	});
+
         	$(this).galleryShowMore();
         });
 

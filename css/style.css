@@ -354,15 +354,15 @@ a:hover {
     float: left;
 }
 
-.gallery-ss li > img {
+.gallery-ss li > a {
     float: left;
 }
 
-.gallery-ss img.w50 {
+.gallery-ss img.w50, .gallery-ss a.w50 {
     width:50%;
 }
 
-.gallery-ss img.w100 {
+.gallery-ss img.w100, .gallery-ss a.w100 {
     width:100%;
 }
 
@@ -1055,6 +1055,9 @@ td .ui-state-active, td .ui-state-hover {
     display: none;
 }
 
+.gallery-ss li a {
+    display: block;
+}
 
 
 
