@@ -130,7 +130,7 @@ a:hover {
 
 #web-navs .navs {
     margin-bottom: 0px;
-      padding: 30px 135px;
+      padding: 30px 3%;
 }
 
 #web-navs li {
@@ -142,7 +142,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right center;
   position: relative;
-  margin-right: 3%;
+  margin-right: 30px;
 } 
  
 #web-navs li.last {
