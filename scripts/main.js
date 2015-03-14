@@ -57,6 +57,9 @@
 (function ($) {
 	
 	$(window).load(function () {
+		$("#home-slideshow > img").each(function () {
+			$(this).removeClass('hideme');
+		});
         $("#home-slideshow").cycle({
         	prev: '.home-slideshow .prev',
         	next: '.home-slideshow .next'
