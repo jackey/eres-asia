@@ -1030,4 +1030,12 @@ td .ui-state-active, td .ui-state-hover {
     display: none;
 }
 
+#locations .tableCell-2:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+#locations .tableCell-2:hover .star-1 {
+    display: none;
+}
+
 
