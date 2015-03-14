@@ -1050,7 +1050,9 @@ td .ui-state-active, td .ui-state-hover {
       letter-spacing: 2px;
 }
 
-
+.shadow-menu {
+    display: none;
+}
 
 
 

@@ -60,7 +60,7 @@
 		$("#home-slideshow > img").each(function () {
 			$(this).removeClass('hideme');
 		});
-		
+
         $("#home-slideshow").cycle({
         	prev: '.home-slideshow .prev',
         	next: '.home-slideshow .next'
@@ -159,10 +159,20 @@
         	}
         });
 
-
-
         $("select.guest").selectmenu().selectmenu('menuWidget').addClass('selectbox');
 
+        $(".mobile-menu-tragger").click(function () {
+        	var target = $(".shadow-menu"),
+        		el = $(this);
+        	if (target.hasClass('click')) {
+        		target.removeClass('click');
+        		el.removeClass('click');
+        	}
+        	else {
+        		target.addClass('click');
+        		el.addClass('click');
+        	}
+        });
 
     });
 })(jQuery);
