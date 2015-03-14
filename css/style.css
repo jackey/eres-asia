@@ -404,8 +404,8 @@ a:hover {
 }
 
 #footer-brands .table {
-    width: 65%;
     margin: 71px auto 40px auto;
+      width: 70%;
 }
 
 #footer-brands li {
@@ -461,7 +461,14 @@ a:hover {
 }
 
 #footer-brands .tableCell {
-    vertical-align: baseline;
+    vertical-align: text-bottom;
+    width: 25%;
+    text-align: center;
+}
+
+#footer-brands .tableCell img {
+    display: inline-block;
+    max-width: 80%;
 }
 
 #footer-desc {
