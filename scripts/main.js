@@ -159,7 +159,11 @@
         	}
         });
 
-        $("select.guest").selectmenu().selectmenu('menuWidget').addClass('selectbox');
+        $("select.guest").selectmenu({
+        	position: {
+        		my: 'left bottom-50',
+        	}
+        }).selectmenu('menuWidget').addClass('selectbox');
 
         $(".mobile-menu-tragger").click(function () {
         	var target = $(".shadow-menu"),
