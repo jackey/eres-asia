@@ -5,6 +5,7 @@
 #web-navs .w > p {
 	  width: 85%;
 	  font-size: 0.9em;
+	  text-align: justify;
 }
 
 .cc4 {
@@ -49,6 +50,7 @@
 #locations .line-1{
 	width: 1.5em;
 	 margin-top: 0.1em;
+	 display: none;
 }
 
 .shanghai-thumb .icon-1 img{
@@ -99,6 +101,148 @@
 
 .social-ss p{
 	  width: 95%;
+  	text-align: justify;
 }
+
+.gallery-ss .l-2 img.w50 {
+  width: 100%;
+}
+
+.gallery-ss li.l-3 {
+	width: 66.66%;
+}
+
+.star-1 {
+  border: 0.5em solid #fff;
+  border-color: #fff transparent transparent transparent;
+  margin-left: -0.5em;
+}
+
+#footer-brands .table {
+	display: none;
+}
+
+#footer-brands .brand-logo-table li {
+	width: 50%;
+  float: left;
+  text-align: center;
+}
+
+#footer-brands .brand-logo-table li img {
+	width: 50%;
+}
+
+.brand-logo-table {
+	  margin-top: 2em;
+}
+
+#footer-brands h4 {
+	padding-bottom: 2em;
+	  padding-bottom: 1.2em;
+  margin-top: 0.5em;
+}
+
+
+#footer-brands .form {
+	  margin-bottom: 6em;
+  width: 100%;
+  padding: 0 2%;
+}
+
+#footer-brands .form input {
+  padding-left: 2%;
+  width: 68%;
+  height: 4em;
+  line-height: 4em;}
+
+#footer-brands .form a {
+  width: 24%;
+  height: 4em;
+  line-height: 4em;
+  font-size: 1em;
+}
+
+
+#footer-desc {
+	display: none;
+}
+
+#footer-mobile {
+	display: block;
+	  background: #534948;
+}
+
+
+#footer-mobile .f-navs-1{
+	width: 100%;
+	  margin-top: 1em;
+}
+
+#footer-mobile .f-navs-1 li {
+	width: 33.33%;
+	float: left;
+	  text-align: center;
+}
+
+#footer-mobile .f-navs-1 li a {
+	color: #fff;
+
+}
+
+#footer-mobile .f-navs-2{
+	width: 100%;
+	  margin-top: 1em;
+}
+
+#footer-mobile .f-navs-2 li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-left: 0px;
+}
+
+#footer-mobile .f-navs-2 li a {
+	color: #fff;
+}
+
+.social-icons {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+} 
+
+.fd-ss-4 {
+	  margin: 1em 0px;
+}
+
+.social-icons img {
+  float: none;
+  display: inline;
+  margin-right: 1em;
+    vertical-align: text-top;
+}
+
+.fd-ss-6 {
+	  text-align: center;
+	    margin-bottom: 1em;
+}
+
+.fd-ss-6 p {
+	  text-align: center;
+	  font-size: 0.7em;
+	  color: #848789;
+}
+
+.fd-ss-6 img{
+	display: inline;
+	margin-top: 0.3em;
+}
+
+
+
+
+
+
+
 
 

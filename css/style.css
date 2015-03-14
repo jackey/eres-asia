@@ -1015,4 +1015,12 @@ td .ui-state-active, td .ui-state-hover {
     display: none;
 }
 
+#footer-mobile {
+    display: none;
+}
+
+.brand-logo-table {
+    display: none;
+}
+
 
