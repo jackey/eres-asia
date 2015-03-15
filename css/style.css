@@ -629,7 +629,9 @@ a:hover {
 .calender {
     background-image: url('../misc/calender-icon.png');
     background-repeat: no-repeat;
-    background-position: 98% 50%;
+background-position: 96% 50%;
+  background-size: 2em;
+
 }
 
 .guest {
@@ -859,9 +861,6 @@ td .ui-state-active, td .ui-state-hover {
       border-radius: 0px;
       float: left;
       width: 16% !important;
-      background-image: url('../misc/guest-icon.png');
-      background-repeat: no-repeat;
-      background-position: 100% 50%;
       border-right: 0px;
       margin-right: 18px;
 }
@@ -885,7 +884,16 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .guest-c .ui-selectmenu-button  .ui-icon {
-    display: none !important;
+  background-image: url('../misc/guest-icon.png');
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: 3em;
+  height: 50px;
+  top: 8px;
+  right: 0px;
+  width: 50px;
+  background-color: #eee;
+  background-size: cover;
 }
 
 .ui-selectmenu-menu .selectbox{
