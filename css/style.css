@@ -514,9 +514,9 @@ a:hover {
 }
 
 #footer-desc .f-navs-2 li {
-    width: 33.33%;
     float: left;
     padding-bottom: 15px;
+      width: 39.33%;
 }
 
 #footer-desc .f-navs-2 {
@@ -1015,8 +1015,8 @@ td .ui-state-active, td .ui-state-hover {
   color: #ffe87f;
 }
 
-.lss2 {
-    margin-left: 1.7em;
+#footer-desc .f-navs-2 li.lss2 {
+      margin-left: 8px;
 }
 
 #news li:hover{
