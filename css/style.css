@@ -154,7 +154,7 @@ a:hover {
     color:#fff;
   font-family: "latobold";
     word-spacing: 0.2em;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 #web-navs a:hover {
@@ -354,7 +354,7 @@ a:hover {
     color: #848789;
     text-align: left;
     line-height: 150%;
-      font-size: 0.9em;
+        font-size: 0.8em;
 }
 
 .gallery-ss li {
@@ -435,7 +435,7 @@ a:hover {
     clear: both;
     text-align: center;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding-bottom: 36px;
 }
 
@@ -446,28 +446,29 @@ a:hover {
 }
 
 #footer-brands .form input {
-    height: 70px;
-    line-height: 70px;
-    width: 70%;
-    display: block;
-    float: left;
-    padding-left: 10px;
-    border: none;
-    font-family: "latoitalic";
+  height: 50px;
+  line-height: 50px;
+  width: 70%;
+  display: block;
+  float: left;
+  padding-left: 10px;
+  border: none;
+  font-family: "latoitalic";
+  font-size: 0.9em;
 }
 
 #footer-brands .form a {
-    width: 25%;
-    float: left;
-    margin-left: 2%;
-    display: block;
-    color: #fff;
-    background: #534948;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    font-size: 1.5em;
-    text-transform: uppercase;
+  width: 25%;
+  float: left;
+  margin-left: 2%;
+  display: block;
+  color: #fff;
+  background: #534948;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 #footer-brands .tableCell {
@@ -486,10 +487,10 @@ a:hover {
 }
 
 #footer-desc .w {
-    margin-top: 50px;
-    padding-bottom: 48px;
-    padding: 0 50px 48px 48px;
+  padding-bottom: 1em;
+  padding: 0 50px 1em 48px;
     box-sizing: border-box;
+      margin-top: 2em;
 }
 
 #footer-desc .fd-ss {
@@ -554,7 +555,7 @@ a:hover {
 #footer-desc .fd-ss-2 ul a , #footer-desc .fd-ss-3 ul a {
     color: #79797a;
     line-height: 120%;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 #footer-desc .fd-ss-4 > img {
@@ -573,6 +574,7 @@ a:hover {
     line-height: 120%;
     text-align: center;
     margin-top: 14px;
+      font-size: 0.9em;
 }
 
 #footer-desc .fd-ss-4 .sss h3 {
@@ -587,9 +589,10 @@ a:hover {
 }
 
 .social-icons {
-  width: 60%;
   margin: 0 auto;
   margin-top: 10px;
+  text-align: center;
+      width: 112px;
 }
 
 .social-icons img {
@@ -605,12 +608,17 @@ a:hover {
 
 #footer-desc .fd-ss-6 {
     right: 36px;
-    bottom: 26px;
     position: absolute;
+    bottom: 0.5em;
 }
 
 #footer-desc .fd-ss-6 p {
     color: #848789;
+      font-size: 0.9em;
+}
+
+.sd1 p {
+  font-size: 0.9em;
 }
 
 #footer-desc .fd-ss-6 img {
@@ -1071,5 +1079,10 @@ td .ui-state-active, td .ui-state-hover {
 
 .placeholder {
     color: #a9a9a9;
+}
+
+.social-icons img.si-last {
+  width: 40px;
+  margin-right: 0px;
 }
 
