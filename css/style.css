@@ -415,8 +415,8 @@ a:hover {
 }
 
 #footer-brands .table {
-    margin: 71px auto 40px auto;
-      width: 70%;
+  margin: 71px auto 40px auto;
+  width: 709px;
 }
 
 #footer-brands li {
@@ -480,7 +480,7 @@ a:hover {
 
 #footer-brands .tableCell img {
     display: inline-block;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 #footer-desc {
