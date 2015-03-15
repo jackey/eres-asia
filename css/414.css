@@ -134,6 +134,7 @@
 
 .brand-logo-table {
 	  margin-top: 2em;
+      display: block;
 }
 
 #footer-brands h4 {
