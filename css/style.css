@@ -1028,7 +1028,7 @@ td .ui-state-active, td .ui-state-hover {
       margin-left: 8px;
 }
 
-#news li:hover{
+#news li:hover, .item-hover-shadow:hover{
     cursor: pointer;
 }
 
@@ -1036,7 +1036,7 @@ td .ui-state-active, td .ui-state-hover {
     color:#fff !important;
 }
 
-#news li:hover .shadow-2{
+#news li:hover .shadow-2, .item-hover-shadow:hover .shadow-2{
     box-shadow: 0px 0px 10px #ffe87f;
 }
 
@@ -1097,4 +1097,25 @@ td .ui-state-active, td .ui-state-hover {
 
 #gallery {
   background: #534948;
+}
+
+.list-con-res li:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #ffe87f;
+}
+
+.btitle h4:hover {
+    color: #333;
+}
+
+#residences .table.clicked {
+    border-bottom-width: 10px;
+    border-color: #231816;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+}
+
+#residences .table.clicked .star-1 {
+    display: none;
 }
