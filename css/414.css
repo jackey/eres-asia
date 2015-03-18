@@ -299,6 +299,28 @@
     transform: translate(15em, 0);
 }
 
+.res-con2 {
+  padding-left: 0.3em 0.1em;
+}
+
+.res-con2 .title {
+    font-size: 0.7em;
+}
+
+.btitle {
+    height: 2em;
+}
+
+.btitle .line-btm {
+  display: none;
+}
+
+.btitle h4 {
+  font-size: 0.8em;
+  padding: 0.5em 0px;
+}
+
+
 
 
 

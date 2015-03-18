@@ -769,7 +769,10 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .btitle .star-1 {
-      top: 100%;
+    top: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    opacity: 1;
 }
 
 .btitle .line-btm {
@@ -812,11 +815,11 @@ td .ui-state-active, td .ui-state-hover {
 
 .res-con2 .title {
   color: #fff;
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 
 .res-con2 .at {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #fff;
   margin-top: 8px;
   display: inline-block;
@@ -828,7 +831,6 @@ td .ui-state-active, td .ui-state-hover {
   margin-top: 8px;
   width: 100%;
   overflow: hidden;
-  height: 1em;
   word-wrap: break-word;
   word-break: break-all;
   white-space: nowrap;
@@ -840,6 +842,7 @@ td .ui-state-active, td .ui-state-hover {
   color: #737273;
   margin-top: 9px;
   display: inline-block;
+  font-size: 0.8em;
 }
 
 .res-con3 {
@@ -1108,7 +1111,7 @@ td .ui-state-active, td .ui-state-hover {
     color: #333;
 }
 
-#residences .table.clicked {
+#residences .table {
     border-bottom-width: 10px;
     border-color: #231816;
     border-style: solid;
@@ -1117,5 +1120,5 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 #residences .table.clicked .star-1 {
-    display: none;
+    opacity: 0;
 }

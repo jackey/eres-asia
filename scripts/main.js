@@ -162,15 +162,21 @@
         	// 已经收起状态下， 需要打开
         	if (el.hasClass(cls)) {
         		el.removeClass(cls);
-        		el.next('.list-con-res').removeAttr('style');
+        		var sourceCss = el.next('.list-con-res').data('source_css');
+        		el.next('.list-con-res')
+        			.animate(sourceCss, 500 * 1, function () {
+        				$(this).removeAttr('style');
+        			});
         	}
         	// 打开状态下，需要收起
         	else {
         		el.addClass('clicked');
         		watcher.start();
-	        	el.next('.list-con-res').animate({
+	        	el.next('.list-con-res')
+	        		.data('source_css', {height: el.next('.list-con-res').height()})
+	        		.animate({
 	        		height: 0
-	        	}, 500, function () {
+	        	}, 500 * 1, function () {
 	        		watcher.stop();
 	        	});
         	}
