@@ -593,12 +593,12 @@ a:hover {
   margin: 0 auto;
   margin-top: 10px;
   text-align: center;
-      width: 112px;
+    width: 121px;
 }
 
 .social-icons img {
     float: left;
-      margin-right: 5%;
+    border-right: 5px solid #534948;
 }
 
 #footer-desc .fd-ss-5 {
@@ -1402,12 +1402,14 @@ td .ui-state-active, td .ui-state-hover {
 .rooms .rd1 .dt1 {
     float: right;
     box-sizing: border-box;
+    width: 70%;
 }
 
 .rooms .rd1 .dt1 li {
     float: left;
     border-right: 1em solid #fff;
     box-sizing: border-box;
+    width: 33.33%;
 }
 
 .rooms .rd1 .dt1 li span {
@@ -1428,6 +1430,7 @@ td .ui-state-active, td .ui-state-hover {
 
 .form.enq {
     margin-top: 3em;
+    font-size:14px;
 }
 
 .form.enq .field {
