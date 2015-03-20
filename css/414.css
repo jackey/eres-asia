@@ -320,6 +320,22 @@
   padding: 0.5em 0px;
 }
 
+.list-con-res {
+    display: none;
+}
+
+
+.list-con-res-mobile.hideme {
+    display: block !important;
+    padding-top: 0.5em;
+}
+
+.list-con-res-mobile > a {
+    display: block;
+}
+
+
+
 
 
 
