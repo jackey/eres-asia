@@ -1122,3 +1122,397 @@ td .ui-state-active, td .ui-state-hover {
 #residences .table.clicked .star-1 {
     opacity: 0;
 }
+
+.lb1 {
+    line-height: 2em;
+    height: 1px;
+    padding: 0px 0px 2em 0px;
+    background-image: url(../misc/line3.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: top center;
+}
+
+.residences-detail .desc2 h4{
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+
+.residences-detail .desc2 p {
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 3em;
+    color: #848789;
+}
+
+.detail-res.s {
+    background: #231816;
+    padding-bottom: 4em;
+}
+
+.detail-res.s .w {
+    margin: 0 auto;
+    background: #fff;
+    width: 72%;
+    max-width: 1200px;
+    min-width: 960px;
+}
+
+.detail-residencies-navs {
+    border-bottom: 1px solid #231816;
+}
+
+.detail-residencies-navs li {
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+    height: 4em;
+    background: #eee;
+    text-align: center;
+    position: relative;
+    display: table;
+    text-transform: uppercase;
+    color: #a0a0a0;
+    border: none;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #231816;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.detail-residencies-navs li.last {
+    border-right: none;
+}
+
+.detail-residencies-navs li span {
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 0.3em;
+}
+
+.detail-residencies-navs li .icon {
+    position: absolute;
+    height: 30px;
+    width: 34px;
+    background-image: url(../misc/res-detail-icons.png);
+    background-repeat: no-repeat;
+    top: 50%;
+    margin-top: -24px;
+    background-size: cover;
+    left: 50%;
+    margin-left: -17px;
+}
+
+.detail-residencies-navs li .icon-1 {
+    background-position: 0px 0px;
+}
+
+.detail-residencies-navs li  .icon-2 {
+    background-position: -34px 0px;
+    width: 30px;
+    margin-left: -15px;
+}
+
+.detail-residencies-navs li  .icon-3 {
+    background-position: -64px 0px;
+    width: 22px;
+    margin-left: -11px;
+}
+
+.detail-residencies-navs li  .icon-4 {
+    background-position: -85px 0px;
+    width: 40px;
+    margin-left: -20px;
+}
+
+.detail-residencies-navs li  .icon-5 {
+    background-position: -125px 0px;
+    width: 35px;
+    margin-left: -16px;
+}
+
+.detail-residencies-navs li:hover {
+    cursor: pointer;
+    background-color:#ffffff;
+}
+
+.exp .lrt {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.detail-res .details .w  h3{
+    font-size: 1.2em;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 3em;
+    padding-top: 1.3em;
+    text-indent: 0.5em;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.exp .lrt p {
+    margin-top: 3em;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: justify;
+    color: #a0a0a0;
+}
+
+.exp .left1 h4 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.exp .ssc1 span{
+    color: #a0a0a0;
+    font-size: 0.9em;
+    text-align: left;
+    text-transform: uppercase;
+    height: 3em;
+    line-height: 3em;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+
+.exp .ssc1 .icon i {
+    background-image: url(../misc/ssc-icons.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 24px;
+    height: 26px;
+    background-position: 0px 0px;
+}
+
+.exp .ssc1 .icon2 i {
+    background-position: -24px 0px;
+}
+
+.exp .ssc1 .icon3 i {
+    background-position: -49px 0px;
+}
+
+.exp .ssc1 .icon4 i {
+    background-position: -73px 0px;
+    width: 27px;
+    height: 27px;
+}
+
+.exp .ssc1 .icon5 i {
+    background-position: -102px 0px;
+    width: 29px;
+}
+
+.exp .ssc1 b {
+    margin-left: 0.5em;
+}
+
+.exp .ssc1 .icon1 b {
+    margin-left: 0px;
+}
+
+.exp .ww {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.exp .left1 {
+    width: 60%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.exp .right1 {
+    box-sizing: border-box;
+    width: 40%;
+    float: left;
+    margin-top: 3em;
+    border-left: 1px solid #a0a0a0;
+    padding-left: 1em;
+}
+
+.exp .right1 h5 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.exp .right1 span {
+    color: #a0a0a0;
+    font-size: 1.1em;
+    display: block;
+    line-height: 200%;
+}
+
+.map h3 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    line-height: 200%;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.map h4 {
+    font-size: 1.1em;
+    color: #a0a0a0;
+    margin-top: 1em;
+    line-height: 150%;
+    margin-left: 3em;
+    margin-bottom: 0.5em;
+}
+
+#map{
+    text-align: center;
+}
+
+.map img{
+    display: inline;
+}
+
+.map {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.detail-res .details > .s {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rooms .rd1 {
+    margin-top: 3em;
+}
+
+.rooms .rd1 img {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.rooms .rd1 .dt1 {
+    float: left;
+    box-sizing: border-box;
+    width: 70%;
+}
+
+.rooms .rd1 .dt1 li {
+    float: left;
+    margin-left: 5%;
+}
+
+.rooms .rd1 .dt1 li span {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.rooms .rd1 .dt1 li span.t1 {
+    font-size: 1.1em;
+    color: #000;
+}
+
+
+.form.enq {
+    margin-top: 3em;
+}
+
+.form.enq .field {
+    margin-bottom: 2em;
+}
+
+
+.form.enq  .field input[type="text"] {
+    height: 50px;
+    line-height: 50px;
+    width: 18em;
+    text-transform: uppercase;
+    padding-left: 1em;
+}
+
+.form.enq .left2 {
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.form.enq .right2 {
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.form.enq .right2 textarea {
+    width: 100%;
+    border: 1px solid #a0a0a0;
+    text-transform: uppercase;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.form.enq .right2 .field-btn > input {
+    height: 3em;
+    line-height: 3em;
+    color: #231816;
+    display: block;
+    font-size: 1.2em;
+    background: #ffe37f;
+    padding: 0px 3.5em;
+    text-transform: uppercase;
+    font-family: "latobold";
+    border: none;
+    box-shadow: none;
+    float: right;
+    clear: both;
+}
+
+.form.enq .right2 .field-btn > span {
+    display: block;
+    color:#a0a0a0;
+    font-size: 0.8em;
+    float: right;
+    clear: both;
+}
+
+.pics {
+    padding-bottom: 4em;
+}
+
+.pics h3 {
+    border-bottom: none !important;
+    border-top: 1px solid #a0a0a0;
+    padding-top: 0px !important;
+}
+
+.pics li {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    border-right: 1em solid #fff;
+}
+
+.pics li img {
+    width: 100%;
+}
+
+.pics li p {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(3,3,3,.5);
+    color: #e3e3e3;
+    line-height: 150%;
+    text-transform: uppercase;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5em 0px;
+    padding-left: 0.8em;
+}

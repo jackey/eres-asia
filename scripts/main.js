@@ -69,6 +69,15 @@
 			}
 		};
 	}
+
+	$.fn.dragmove = function () {
+		var self = $(this);
+		var items = self.children();
+		
+		
+
+	};
+
 })(jQuery);
 
 (function ($) {
@@ -85,8 +94,6 @@
 	});
 
     $(function () {
-
-
     	var sslistw = $(".ss-list").width();
         $(".ss-list").cycle({
         	fx: 'scrollHorz',
@@ -209,6 +216,10 @@
         });
 
         $('input[placeholder!=""]').placeholder();
+
+        $('.list-con-res ul').dragmove();
+
+
 
     });
 })(jQuery);
