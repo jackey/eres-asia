@@ -1134,13 +1134,13 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .residences-detail .desc2 h4{
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: #fff;
     text-align: center;
 }
 
 .residences-detail .desc2 p {
-    font-size: 1.3em;
+    font-size: 0.9em;
     text-align: center;
     line-height: 3em;
     color: #848789;
@@ -1189,6 +1189,7 @@ td .ui-state-active, td .ui-state-hover {
     display: table-cell;
     vertical-align: bottom;
     padding-bottom: 0.3em;
+    font-size: 0.8em;
 }
 
 .detail-residencies-navs li .icon {
@@ -1242,14 +1243,20 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .detail-res .details .w  h3{
-    font-size: 1.2em;
     color: #000;
     text-transform: uppercase;
     line-height: 3em;
     padding-top: 1.3em;
     text-indent: 0.5em;
     border-bottom: 1px solid #a0a0a0;
+    font-size: 0.9em;
 }
+
+.pics h3 {
+    text-align: center;
+}
+
+
 
 .exp .lrt p {
     margin-top: 3em;
@@ -1257,24 +1264,25 @@ td .ui-state-active, td .ui-state-hover {
     text-transform: uppercase;
     text-align: justify;
     color: #a0a0a0;
+    font-size: 0.8em;
 }
 
 .exp .left1 h4 {
-    font-size: 1.2em;
     text-transform: uppercase;
     margin-top: 2em;
     margin-bottom: 1em;
+    font-size: 0.9em;
 }
 
 .exp .ssc1 span{
     color: #a0a0a0;
-    font-size: 0.9em;
     text-align: left;
     text-transform: uppercase;
     height: 3em;
     line-height: 3em;
     display: inline-block;
     margin-right: 2em;
+    font-size: 0.8em;
 }
 
 
@@ -1334,16 +1342,17 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .exp .right1 h5 {
-    font-size: 1.2em;
     text-transform: uppercase;
     color: #000;
+    font-size: 0.9em;
+
 }
 
 .exp .right1 span {
     color: #a0a0a0;
-    font-size: 1.1em;
     display: block;
     line-height: 200%;
+    font-size: 0.8em;
 }
 
 .map h3 {
@@ -1354,7 +1363,7 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .map h4 {
-    font-size: 1.1em;
+    font-size: 1em;
     color: #a0a0a0;
     margin-top: 1em;
     line-height: 150%;
@@ -1391,28 +1400,29 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .rooms .rd1 .dt1 {
-    float: left;
+    float: right;
     box-sizing: border-box;
-    width: 70%;
 }
 
 .rooms .rd1 .dt1 li {
     float: left;
-    margin-left: 5%;
+    border-right: 1em solid #fff;
+    box-sizing: border-box;
 }
 
 .rooms .rd1 .dt1 li span {
     display: block;
     text-align: center;
-    font-size: 1em;
     color: #a0a0a0;
     text-transform: uppercase;
     margin-bottom: 0.5em;
+    font-size: 0.8em;
+
 }
 
 .rooms .rd1 .dt1 li span.t1 {
-    font-size: 1.1em;
     color: #000;
+    font-size: 0.9em;
 }
 
 
@@ -1428,9 +1438,10 @@ td .ui-state-active, td .ui-state-hover {
 .form.enq  .field input[type="text"] {
     height: 50px;
     line-height: 50px;
-    width: 18em;
+    width: 22.5em;
     text-transform: uppercase;
     padding-left: 1em;
+    font-size: 0.8em;
 }
 
 .form.enq .left2 {
@@ -1451,6 +1462,7 @@ td .ui-state-active, td .ui-state-hover {
     text-transform: uppercase;
     padding-left: 1em;
     padding-top: 1em;
+    font-size: 0.8em;
 }
 
 .form.enq .right2 .field-btn > input {
@@ -1458,7 +1470,6 @@ td .ui-state-active, td .ui-state-hover {
     line-height: 3em;
     color: #231816;
     display: block;
-    font-size: 1.2em;
     background: #ffe37f;
     padding: 0px 3.5em;
     text-transform: uppercase;
@@ -1467,6 +1478,7 @@ td .ui-state-active, td .ui-state-hover {
     box-shadow: none;
     float: right;
     clear: both;
+    font-size: 0.9em;
 }
 
 .form.enq .right2 .field-btn > span {
@@ -1511,6 +1523,7 @@ td .ui-state-active, td .ui-state-hover {
     box-sizing: border-box;
     padding: 0.5em 0px;
     padding-left: 0.8em;
+    font-size: 0.8em;
 }
 
 .detail-res.s .details .w {
@@ -1532,4 +1545,8 @@ td .ui-state-active, td .ui-state-hover {
 .bg3:hover {
     opacity: 0;
     cursor: pointer;
+}
+
+.residences-detail .s .w h3 {
+    font-family: "latobold";
 }
