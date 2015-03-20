@@ -1232,7 +1232,7 @@ td .ui-state-active, td .ui-state-hover {
     margin-left: -16px;
 }
 
-.detail-residencies-navs li:hover {
+.detail-residencies-navs li:hover, .detail-residencies-navs li.active {
     cursor: pointer;
     background-color:#ffffff;
 }
