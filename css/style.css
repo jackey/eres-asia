@@ -1155,8 +1155,6 @@ td .ui-state-active, td .ui-state-hover {
     margin: 0 auto;
     background: #fff;
     width: 72%;
-    max-width: 1200px;
-    min-width: 960px;
 }
 
 .detail-residencies-navs {
@@ -1240,7 +1238,6 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .exp .lrt {
-    width: 90%;
     margin: 0 auto;
 }
 
@@ -1318,7 +1315,6 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .exp .ww {
-    width: 90%;
     margin: 0 auto;
 }
 
@@ -1515,4 +1511,25 @@ td .ui-state-active, td .ui-state-hover {
     box-sizing: border-box;
     padding: 0.5em 0px;
     padding-left: 0.8em;
+}
+
+.detail-res.s .details .w {
+    width: 100%;
+}
+
+.form.enq .field.field-comments {
+    margin-right: 1.2em;
+}
+
+.bg3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: rgba(0,0,0,0.3);
+}
+
+.bg3:hover {
+    opacity: 0;
+    cursor: pointer;
 }
