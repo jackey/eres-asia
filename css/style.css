@@ -1419,12 +1419,15 @@ td .ui-state-active, td .ui-state-hover {
     text-transform: uppercase;
     margin-bottom: 0.5em;
     font-size: 0.8em;
+    line-height: 200%;
 
 }
 
 .rooms .rd1 .dt1 li span.t1 {
     color: #000;
     font-size: 0.9em;
+    line-height: 100%;
+    margin-bottom: 1em;
 }
 
 
