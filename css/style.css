@@ -1129,8 +1129,8 @@ td .ui-state-active, td .ui-state-hover {
     padding: 0px 0px 2em 0px;
     background-image: url(../misc/line3.png);
     background-repeat: no-repeat;
-    background-size: 60%;
     background-position: top center;
+    background-size: 51.5%;
 }
 
 .residences-detail .desc2 h4{
@@ -1555,4 +1555,213 @@ td .ui-state-active, td .ui-state-hover {
 .residences-detail .s .w h3 {
     font-family: "latobold";
 }
+
+.page-2 .desc2 span {
+    margin: 0 auto;
+    line-height: 150%;
+    text-align: left;
+    margin-top: 3.2em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #848789;
+    display: block;
+    width: 56.5%;
+}
+
+.page-2 .desc2 h4 {
+    color: #fff;
+    text-align: center;
+    height: 3.5em;
+    line-height: 3.5em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.page-2 .desc2 p {
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 3em;
+    color: #848789;
+}
+
+#about-page {
+    background: #231816;
+}
+
+#about-page .w {
+    margin: 0 auto;
+    width: 75.2%;
+    padding-bottom: 1.5em;
+}
+
+#about-page .w > img {
+    width: 100%;
+}
+
+.page-2 #web-navs .w {
+    padding-bottom: 3em;
+}
+
+.page-2 .lb1 {
+    padding: 0px 0px 16px 0px;
+}
+
+#contact-page {
+    background: #231816;
+}
+
+.form2 > h3 {
+    text-align: center;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+}
+
+.form2 input {
+    display: block;
+    height: 47px;
+    line-height: 47px;
+    width: 100%;
+    padding-left: 1em;
+    font-size: 0.8em;
+    font-family: "latoitalic";
+    box-sizing: border-box;
+}
+
+.form2 .field {
+    width: 13.5em;
+    margin-bottom: 2em;
+}
+
+.form2 input[type="button"] {
+    color: #231816;
+    font-family: "latobold";
+    text-transform: uppercase;
+    background: #ffe37f;
+    border: none;
+    font-size: 1em;
+}
+
+#contact-page .w {
+    width: 56.8%;
+    margin: 0 auto;
+}
+
+.form2 .field-btn {
+    float: right;
+    clear: both;
+    margin-bottom: 5.5em;
+}
+
+.left1 {
+    float: left;
+}
+
+.right1 {
+    float:right;
+}
+
+.field-l {
+    width: 30%;
+}
+
+.field-r {
+    width: 70%;
+}
+
+.form2 .field-ta {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.form2 .field-ta textarea {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-left: 1em;
+    padding-top: 1em;
+    font-size: 0.8em;
+    font-family: "latoitalic";
+    box-sizing: border-box;
+}
+
+.form2 .fw {
+    margin-top: 2.6em;
+}
+
+#service-page {
+    background: #231816;
+}
+
+#service-page .sec img{
+    width: 100%;
+}
+
+.sec1 .sc1 {
+    width: 40%;
+    float: left;
+}
+
+.sec1 .sc2 {
+    width: 60%;
+    float: right;
+    box-sizing: border-box;
+    padding: 0px 3em 0px 8em;
+    color: #a0a0a0;
+}
+
+.sec1 .plist ul {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 4em;
+}
+
+.sec .plist li{
+    line-height: 200%;
+    list-style-image: url(../misc/listicon1.png);
+    color: #a0a0a0;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.sec1 .plist h4 {
+    margin-top: 3em;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.sec2 .sc1 {
+    float: right;
+    width: 50%;
+}
+
+.sec2 .sc2 {
+    width: 50%;
+    float: left;
+}
+
+.sec2 .sc2 .plist , .sec3 .sc2 .plist {
+    padding: 0px 5em;
+}
+
+.sec2 .sc2 .plist ul , .sec3 .sc2 .plist ul{
+    margin-top:2em;
+}
+
+.sec2 .sc2 .plist h3, .sec3 .sc2 .plist h3 {
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.sec3 .sc1 {
+    float: left;
+    width: 50%;
+}
+
+.sec3 .sc2 {
+    width: 50%;
+    float: right;
+}
+
 
