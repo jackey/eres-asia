@@ -1613,6 +1613,7 @@ td .ui-state-active, td .ui-state-hover {
     color: #848789;
     display: block;
     width: 56.5%;
+    letter-spacing: 2px;
 }
 
 .page-2 .desc2 h4 {
@@ -1620,8 +1621,9 @@ td .ui-state-active, td .ui-state-hover {
     text-align: center;
     height: 3.5em;
     line-height: 3.5em;
-    font-size: 1.5em;
     text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.8em;
 }
 
 .page-2 .desc2 p {
@@ -1661,7 +1663,7 @@ td .ui-state-active, td .ui-state-hover {
     text-align: center;
     color: #a0a0a0;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 0.8em;
 }
 
@@ -1688,6 +1690,7 @@ td .ui-state-active, td .ui-state-hover {
     background: #ffe37f;
     border: none;
     font-size: 1em;
+    letter-spacing: 1px;
 }
 
 #contact-page .w {
@@ -1730,6 +1733,7 @@ td .ui-state-active, td .ui-state-hover {
     font-size: 0.8em;
     font-family: "latoitalic";
     box-sizing: border-box;
+    height: 16em;
 }
 
 .form2 .fw {
@@ -1775,12 +1779,14 @@ td .ui-state-active, td .ui-state-hover {
     padding-top: .5em;
     padding-bottom: .5em;
     line-height: 180%;
+    letter-spacing: 2px;
 }
 
 .sec1 .plist h4 {
     margin-top: 3em;
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 .sec2 .sc1 {
@@ -1792,8 +1798,9 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .sec2 .sc2 .plist , .sec3 .sc2 .plist {
-    width: 375px;
     margin: 0 auto;
+    width: 451px;
+
 
 }
 
@@ -1806,6 +1813,7 @@ td .ui-state-active, td .ui-state-hover {
     color:#fff;
     text-transform: uppercase;
     font-size: 0.9em;
+    letter-spacing: 2px;
 }
 
 .sec3 .sc1 {
