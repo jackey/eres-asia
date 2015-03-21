@@ -169,8 +169,8 @@
         	// 已经收起状态下， 需要打开
         	if (el.hasClass(cls)) {
         		el.removeClass(cls);
-        		var sourceCss = el.next('.list-con-res').data('source_css');
-        		el.next('.list-con-res')
+        		var sourceCss = el.nextAll('.list-con-res-desktop:eq(0)').data('source_css');
+        		el.nextAll('.list-con-res-desktop:eq(0)')
         			.animate(sourceCss, 500 * 1, function () {
         				$(this).removeAttr('style');
         			});
@@ -179,8 +179,8 @@
         	else {
         		el.addClass('clicked');
         		watcher.start();
-	        	el.next('.list-con-res')
-	        		.data('source_css', {height: el.next('.list-con-res').height()})
+	        	el.nextAll('.list-con-res-desktop:eq(0)')
+	        		.data('source_css', {height: el.nextAll('.list-con-res-desktop:eq(0)').height()})
 	        		.animate({
 	        		height: 0
 	        	}, 500 * 1, function () {
