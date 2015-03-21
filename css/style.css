@@ -155,6 +155,7 @@ a:hover {
   font-family: "latobold";
     word-spacing: 0.2em;
     font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 #web-navs a:hover {
@@ -179,6 +180,7 @@ a:hover {
     text-transform: uppercase;
     padding: 20px 0px;
     font-family: "latobold";
+    letter-spacing: 4px;
 }
 
 #web-navs .w > p {
@@ -186,10 +188,10 @@ a:hover {
     color: #848789;
     width: 735px;
     margin: 0 auto;
-    text-align: center;
-    line-height: 130%;
     font-size: 0.9em;
       text-align: left;
+    line-height: 200%;
+    letter-spacing: 2px;
 }
 
 .lang-cn #web-navs .w > p {
@@ -252,6 +254,7 @@ a:hover {
     text-transform: uppercase;
     line-height: 150%;
     font-family: "latobold";
+    letter-spacing: 5px;
 }
 
 #locations .shanghai-thumb h4.t2 {
@@ -260,7 +263,7 @@ a:hover {
     text-transform: uppercase;
     line-height: 150%;
     color: #848789;
-      font-family: "黑体";
+    letter-spacing: 5px;
 }
 
 #locations .line-1 {
@@ -349,6 +352,7 @@ a:hover {
   padding: 35px 0px;
   text-align: left;
   font-family: "latobold";
+    letter-spacing: 1px;
 }
 
 #news li > p {
@@ -356,6 +360,7 @@ a:hover {
     text-align: left;
     line-height: 150%;
         font-size: 0.8em;
+    letter-spacing: 1px;
 }
 
 .gallery-ss li {
@@ -438,6 +443,7 @@ a:hover {
     color: #fff;
     font-size: 1.1em;
     padding-bottom: 36px;
+    font-family: "latoitalic";
 }
 
 #footer-brands .form {
@@ -504,8 +510,9 @@ a:hover {
 }
 
 #footer-desc .fd-ss a {
-    color:#fff;
-      font-size: 0.9em;
+    color: #fff;
+    font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 #footer-desc .f-navs-1 li {
@@ -521,8 +528,8 @@ a:hover {
 }
 
 #footer-desc .f-navs-2 {
-    width: 66.66%;
     margin: 0 auto;
+    width: 73.66%;
 }
 
 #footer-desc .sd1 {
@@ -548,9 +555,10 @@ a:hover {
 
 
 #footer-desc .fd-ss-2 h4 , #footer-desc .fd-ss-3 h4 {
-    font-size: 1em;
     padding-bottom: 10px;
     color: #fff;
+    font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 #footer-desc .fd-ss-2 ul a , #footer-desc .fd-ss-3 ul a {
@@ -593,7 +601,7 @@ a:hover {
   margin: 0 auto;
   margin-top: 10px;
   text-align: center;
-    width: 121px;
+    width: 166px;
 }
 
 .social-icons img {
@@ -991,6 +999,7 @@ td .ui-state-active, td .ui-state-hover {
 
 #social-con {
       background: #534948;
+    display: none !important;
 }
 
 .ss-list {
@@ -1074,6 +1083,7 @@ td .ui-state-active, td .ui-state-hover {
 
 .lang a {
     color:#fff;
+    letter-spacing: 2px;
 }
 
 .lang-cn #web-navs li {
@@ -1100,6 +1110,7 @@ td .ui-state-active, td .ui-state-hover {
 
 #gallery {
   background: #534948;
+    display: none!important;
 }
 
 .list-con-res li:hover {
@@ -1145,6 +1156,7 @@ td .ui-state-active, td .ui-state-hover {
     text-align: center;
     line-height: 3em;
     color: #848789;
+    letter-spacing: 2px;
 }
 
 .detail-res.s {
@@ -1191,6 +1203,7 @@ td .ui-state-active, td .ui-state-hover {
     vertical-align: bottom;
     padding-bottom: 0.3em;
     font-size: 0.8em;
+    letter-spacing: 2px;
 }
 
 .detail-residencies-navs li .icon {
@@ -1393,6 +1406,7 @@ td .ui-state-active, td .ui-state-hover {
     line-height: 150%;
     margin-bottom: 0.5em;
     text-indent: 0.5em;
+    letter-spacing: 1px;
 }
 
 #map{
@@ -1444,6 +1458,7 @@ td .ui-state-active, td .ui-state-hover {
     margin-bottom: 0.5em;
     font-size: 0.8em;
     line-height: 200%;
+    letter-spacing: 1px;
 }
 
 .rooms .rd1 .dt1 li span.t1 {
@@ -1730,30 +1745,36 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .sec1 .sc1 {
-    width: 40%;
-    float: left;
+    width: 100%;
 }
 
 .sec1 .sc2 {
-    width: 60%;
-    float: right;
+    width: 100%;
     box-sizing: border-box;
     padding: 0px 3em 0px 8em;
     color: #a0a0a0;
+
 }
 
 .sec1 .plist ul {
-    margin-top: 3em;
+    margin-top: 2em;
     margin-bottom: 3em;
-    margin-left: 4em;
+    margin-left: 2em;
+
 }
 
 .sec .plist li{
-    line-height: 200%;
-    list-style-image: url(../misc/listicon1.png);
+    background-image: url(../misc/listicon1.png);
     color: #a0a0a0;
     text-transform: uppercase;
     font-size: 0.8em;
+    list-style-position: inside;
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    background-position: left 50%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    line-height: 180%;
 }
 
 .sec1 .plist h4 {
@@ -1763,21 +1784,22 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .sec2 .sc1 {
-    float: right;
-    width: 50%;
+    width: 100%;
 }
 
 .sec2 .sc2 {
-    width: 50%;
-    float: left;
+    width: 100%;
 }
 
 .sec2 .sc2 .plist , .sec3 .sc2 .plist {
-    padding: 0px 5em;
+    width: 375px;
+    margin: 0 auto;
+
 }
 
 .sec2 .sc2 .plist ul , .sec3 .sc2 .plist ul{
     margin-top:2em;
+    margin-left: 2em;
 }
 
 .sec2 .sc2 .plist h3, .sec3 .sc2 .plist h3 {
@@ -1787,13 +1809,11 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .sec3 .sc1 {
-    float: left;
-    width: 50%;
+    width: 100%;
 }
 
 .sec3 .sc2 {
-    width: 50%;
-    float: right;
+    width: 100%;
 }
 
 
@@ -1820,3 +1840,45 @@ td .ui-state-active, td .ui-state-hover {
     left:50%;
     z-index: 1111;
 }
+
+#footer-desc {
+    letter-spacing: 1px;
+}
+
+.f-navs-1 {
+    padding-right: 4em;
+}
+
+.f-navs-1 .nav-2 {
+    text-align: center;
+}
+
+.f-navs-1 .nav-3 {
+    text-align: right;
+}
+
+
+#service-page .sec1 .tableCell  {
+    vertical-align: middle;
+}
+
+#service-page .sec1 .tableCell-1 {
+    width:40%;
+}
+
+#service-page .sec1 .tableCell-2 {
+    width:60%;
+}
+
+
+#service-page .sec2 .tableCell,#service-page .sec3 .tableCell  {
+    vertical-align: middle;
+    width:50%;
+}
+
+
+
+
+
+
+

@@ -236,6 +236,7 @@
 		// res-detail 页面滚动
 		$(window).scroll(function () {
 			var bar = $(".detail-residencies-navs");
+			if (bar.size() <= 0) return;
 			if (bar.data('top')) {
 				var topBar = bar.data('top');
 			}
