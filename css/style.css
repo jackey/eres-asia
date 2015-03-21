@@ -1134,13 +1134,14 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .residences-detail .desc2 h4{
-    font-size: 0.9em;
+    font-size: 2em;
     color: #fff;
     text-align: center;
+    letter-spacing: 6px;
 }
 
 .residences-detail .desc2 p {
-    font-size: 0.9em;
+    font-size: 1.8em;
     text-align: center;
     line-height: 3em;
     color: #848789;
@@ -1265,6 +1266,8 @@ td .ui-state-active, td .ui-state-hover {
     text-align: justify;
     color: #a0a0a0;
     font-size: 0.8em;
+    font-family: "latobold";
+    letter-spacing: 2px;
 }
 
 .exp .left1 h4 {
@@ -1272,6 +1275,8 @@ td .ui-state-active, td .ui-state-hover {
     margin-top: 2em;
     margin-bottom: 1em;
     font-size: 0.9em;
+    font-family: "latobold";
+    letter-spacing: 2px;
 }
 
 .exp .ssc1 span{
@@ -1283,6 +1288,7 @@ td .ui-state-active, td .ui-state-hover {
     display: inline-block;
     margin-right: 2em;
     font-size: 0.8em;
+    position: relative;
 }
 
 
@@ -1290,36 +1296,49 @@ td .ui-state-active, td .ui-state-hover {
     background-image: url(../misc/ssc-icons.png);
     background-repeat: no-repeat;
     display: inline-block;
-    width: 24px;
     height: 26px;
     background-position: 0px 0px;
+    position: absolute;
+    left:0px;
+    width: 21px;
+    top: 50%;
+    margin-top: -15px;
 }
 
 .exp .ssc1 .icon2 i {
-    background-position: -24px 0px;
+    background-position: -19px 0px;
 }
 
 .exp .ssc1 .icon3 i {
-    background-position: -49px 0px;
+    background-position: -41px 0px;
 }
 
 .exp .ssc1 .icon4 i {
-    background-position: -73px 0px;
-    width: 27px;
+    background-position: -61px 0px;
+    width: 21px;
     height: 27px;
 }
 
 .exp .ssc1 .icon5 i {
-    background-position: -102px 0px;
-    width: 29px;
+    background-position: -85px 0px;
+    width: 24px;
 }
 
 .exp .ssc1 b {
-    margin-left: 0.5em;
+    margin-left: 31px;
+    display: inline-block;
+    font-family: "latobold";
+    letter-spacing: 2px;
+    font-size: 0.9em;
+}
+
+.exp .ssc1 .no-icon b {
+    margin-left: 0px;
 }
 
 .exp .ssc1 .icon1 b {
     margin-left: 0px;
+
 }
 
 .exp .ww {
@@ -1327,15 +1346,13 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .exp .left1 {
-    width: 60%;
-    float: left;
+    width: 100%;
     box-sizing: border-box;
 }
 
 .exp .right1 {
     box-sizing: border-box;
-    width: 40%;
-    float: left;
+    width: 100%;
     margin-top: 3em;
     border-left: 1px solid #a0a0a0;
     padding-left: 1em;
@@ -1344,15 +1361,22 @@ td .ui-state-active, td .ui-state-hover {
 .exp .right1 h5 {
     text-transform: uppercase;
     color: #000;
-    font-size: 0.9em;
-
+    font-size: 1em;
+    font-family: "latobold";
+    letter-spacing: 3px;
 }
 
 .exp .right1 span {
     color: #a0a0a0;
     display: block;
     line-height: 200%;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.exp .right1 li {
+    margin-bottom: 1em;
 }
 
 .map h3 {
@@ -1427,6 +1451,8 @@ td .ui-state-active, td .ui-state-hover {
     font-size: 0.9em;
     line-height: 100%;
     margin-bottom: 1em;
+    letter-spacing: 2px;
+    font-family: "latobold";
 }
 
 
@@ -1441,12 +1467,13 @@ td .ui-state-active, td .ui-state-hover {
 
 
 .form.enq  .field input[type="text"] {
-    height: 50px;
-    line-height: 50px;
+    height: 4em;
+    line-height: 4em;
     width: 22.5em;
     text-transform: uppercase;
     padding-left: 1em;
     font-size: 0.8em;
+    letter-spacing: 1px;
 }
 
 .form.enq .left2 {
@@ -1468,22 +1495,24 @@ td .ui-state-active, td .ui-state-hover {
     padding-left: 1em;
     padding-top: 1em;
     font-size: 0.8em;
+    height: 16.5em;
 }
 
 .form.enq .right2 .field-btn > input {
-    height: 3em;
-    line-height: 3em;
+    height: 2.8em;
+    line-height: 2.8em;
     color: #231816;
     display: block;
     background: #ffe37f;
     padding: 0px 3.5em;
     text-transform: uppercase;
-    font-family: "latobold";
     border: none;
     box-shadow: none;
     float: right;
     clear: both;
-    font-size: 0.9em;
+    width: 15.6em;
+    font-family: "latobold";
+    font-size: 1.2em;
 }
 
 .form.enq .right2 .field-btn > span {
@@ -1554,6 +1583,9 @@ td .ui-state-active, td .ui-state-hover {
 
 .residences-detail .s .w h3 {
     font-family: "latobold";
+    font-size: 1.2em;
+    letter-spacing: 5px;
+    margin-top: 3em;
 }
 
 .page-2 .desc2 span {
@@ -1765,3 +1797,26 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 
+.exp .lrt {
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 3em;
+}
+
+.exp .ww {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.residences-detail .s.exp .w h3 {
+    margin-top: 0px;
+}
+
+.detail-residencies-navs.fixed {
+    position: fixed;
+    top:0px;
+    left:50%;
+    z-index: 1111;
+}

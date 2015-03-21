@@ -232,8 +232,47 @@
 			map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 		}
 
-		$(".list-con-res-mobile").rondell({
-			preset: "carousel"
+
+		// res-detail 页面滚动
+		$(window).scroll(function () {
+			var bar = $(".detail-residencies-navs");
+			if (bar.data('top')) {
+				var topBar = bar.data('top');
+			}
+			else {
+				var topBar = bar.offset()['top'];
+				bar.data('top', topBar);
+			}
+			var scrollTop = $(window).scrollTop();
+
+			// 恢复位置
+			if (bar.hasClass('fixed') && scrollTop < topBar) {
+				bar.removeClass('fixed').removeAttr('style');
+			}
+
+			// 置顶
+			if (!bar.hasClass('fixed') && scrollTop >= topBar) {
+				bar.css({
+					width: bar.width(),
+					'margin-left': -(bar.width()/2)
+				}).addClass('fixed');
+			}
+		});
+
+		// 导航点击
+		$(".detail-residencies-navs li").click(function () {
+			var scrollToEl = $(this).data('target');
+			var el = $(this);
+
+			el.siblings().removeClass('active');
+			el.addClass('active');
+
+			if ($(scrollToEl).hasClass('exp')){
+				$.scrollTo($(scrollToEl).offset()['top'] - 50, 500);
+			}
+			else {
+				$.scrollTo(scrollToEl, 500);
+			}
 		});
 
     });
