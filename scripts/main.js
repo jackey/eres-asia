@@ -235,7 +235,7 @@
 			var point = new BMap.Point(mapDom.data('lat'), mapDom.data('lng'));
 			console.log(point);
 			var icon = new BMap.Icon("http://pic002.cnblogs.com/images/2011/308287/2011091516161618.png", new BMap.Size(80, 100));
-			var marker = new BMap.Marker(point, {icon: icon});
+			var marker = new BMap.Marker(point);
 			map.addOverlay(marker);
 			console.log(marker);
 		}
