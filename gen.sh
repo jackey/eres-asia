@@ -18,8 +18,14 @@ fi
 CITY=$1
 PART=$2
 
-for file in `ls ${DIR}/${CITY}/${PART}`; do
-	file=`urlencode $file`
-	echo "<img src=\"${FROM}/${CITY}/${PART}/${file}\" alt=\"${CITY}\" />"
-
-done
+if [[ ! $PART = "" ]];then 
+	for file in `ls ${DIR}/${CITY}/${PART}`; do
+		file=`urlencode $file`
+		echo "<img src=\"${FROM}/${CITY}/${PART}/${file}\" alt=\"${CITY}\" />"
+	done
+else
+	for file in `ls ${DIR}/${CITY}/slideshow`; do
+        	 file=`urlencode $file`
+         	echo "<img src=\"${FROM}/${CITY}/slideshow/${file}\" alt=\"${CITY}\" />"
+	done
+fi
