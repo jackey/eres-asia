@@ -233,9 +233,11 @@
 
 			// 设置点
 			var point = new BMap.Point(mapDom.data('lat'), mapDom.data('lng'));
-			var icon = new BMap.Icon("http://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png", new BMap.Size(80, 100));
+			console.log(point);
+			var icon = new BMap.Icon("http://pic002.cnblogs.com/images/2011/308287/2011091516161618.png", new BMap.Size(80, 100));
 			var marker = new BMap.Marker(point, {icon: icon});
 			map.addOverlay(marker);
+			console.log(marker);
 		}
 
 

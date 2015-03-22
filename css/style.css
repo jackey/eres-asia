@@ -581,9 +581,10 @@ a:hover {
 #footer-desc .fd-ss-4 .sss p {
     color: #848789;
     line-height: 120%;
-    text-align: center;
+    text-align: left;
     margin-top: 14px;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    padding-left: 2em;
 }
 
 #footer-desc .fd-ss-4 .sss h3 {
@@ -602,7 +603,7 @@ a:hover {
   margin: 0 auto;
   margin-top: 10px;
   text-align: center;
-    width: 166px;
+    width: 156px;
 }
 
 .social-icons img {
