@@ -861,6 +861,7 @@ td .ui-state-active, td .ui-state-hover {
 .res-con3 {
     border-top: 1px solid #5d5555;
     padding-top: 7px !important;
+    letter-spacing: 1px;
 }
 
 .list-con-res .llast{
