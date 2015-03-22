@@ -1413,8 +1413,8 @@ td .ui-state-active, td .ui-state-hover {
     margin-top: 1em;
     line-height: 150%;
     margin-bottom: 0.5em;
-    text-indent: 0.5em;
     letter-spacing: 1px;
+    padding-left: 0.5em;
 }
 
 #map{
