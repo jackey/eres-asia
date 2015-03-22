@@ -62,27 +62,26 @@
         </div>
         <div class="book-form">
             <form action="">
-                <input type="text" name="name" placeholder="Enter a city or Hotel name"/>
-                <input type="text" name="email" placeholder="Enter your email adress"/>
+                <input type="text" name="name" placeholder="输入城市或酒店"/>
+                <input type="text" name="email" placeholder="输入您的邮箱地址"/>
 
                 <div class="date-input">
-                    <input type="text" name="check-in-date" placeholder="Check-In" class="calender calender"/>
+                    <input type="text" name="check-in-date" placeholder="入住日期" class="calender calender"/>
                 </div>
 
                 <div class="date-input">
-                    <input type="text" name="check-out-date" placeholder="Check-Out" class="calender"/>
+                    <input type="text" name="check-out-date" placeholder="退房日期" class="calender"/>
                 </div>
 
                 <div class="guest-c">
-                    <select name="guest" placeholder="2 Guests" class="guest">
-                        <option value="3">4 Guests</option>
-                        <option value="3">3 Guests</option>
-                        <option value="2">2 Guests</option>
-                        <option value="1">1 Guest</option>
+                    <select name="guest" placeholder="入住人数" class="guest">
+                        <option value="1">1位 客人</option>
+                        <option value="2">2位 客人</option>
+                        <option value="3">3位 客人</option>
+                        <option value="3">4位 客人</option>
                     </select>
                 </div>
-
-                <a class="btn btn-book" href="javascript:void(0)">book</a>
+                <a class="btn btn-book" href="javascript:void(0)">预定</a>
             </form>
         </div>
         <div class="down"></div>
@@ -187,7 +186,7 @@
                         </div>
                         <div class="lrt2 clearfix">
                             <div class="left1 ">
-                                <h4>AMMENITES</h4>
+                                <h4>设施</h4>
                                 <div class="ssc1">
                                     <span class="icon no-icon"><b>即将开业</b></span>
                                 </div>
@@ -290,7 +289,7 @@
                                 <textarea name="comments" id="" cols="30" rows="10" placeholder="您的留言"></textarea>
                             </div>
                             <div class="field field-btn">
-                                <input type="submit" value="send enquiry"/>
+                                <input type="submit" value="发送留言"/>
                                 <span>We will not share your personal information with anymore.</span>
                                 <span>Fields Marked with are Mandatory</span>
                             </div>
@@ -338,13 +337,13 @@
     <div class="w clearfix">
         <div class="fd-ss fd-ss-1">
             <ul class="f-navs-1 clearfix">
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">NEWS</a></li>
-                <li><a href="">RESIDENCES</a></li>
+                <li class="nav-1"><a href="/aboutus.html">关于我们</a></li>
+                <li class="nav-2"><a href="">信心中心</a></li>
+                <li class="nav-3"><a href="/residences.html">公寓大赏</a></li>
             </ul>
             <ul class="f-navs-2 clearfix">
-                <li><a href="">SERVICES</a></li>
-                <li><a href="">CONTACT US</a></li>
+                <li class="nav-4"><a href="/service.html">我们的服务</a></li>
+                <li class="lss2 nav-5"><a href="/contact.html">联系我们</a></li>
             </ul>
             <div class="sd1">
                 <p>
@@ -358,19 +357,18 @@
         <div class="fd-ss fd-ss-2">
             <div class="ww"><h4>City guide</h4>
                 <ul>
-                    <li><a href="">Shanghai</a></li>
-                    <li><a href="">Dalian</a></li>
-                    <li><a href="">Nantong</a></li>
+                    <li><a href="/residences.html">上海</a></li>
+                    <li><a href="/residences.html">大连</a></li>
+                    <li><a href="/residences.html">南通</a></li>
                 </ul></div>
         </div>
 
         <div class="fd-ss fd-ss-3">
             <div class="ww"><h4>Quick Links</h4>
                 <ul>
-                    <li><a href="">Contact us</a></li>
-                    <li><a href="">Best Rate Guarantee</a></li>
-                    <li><a href="">Site地图</a></li>
-                    <li><a href="">News Centre</a></li>
+                    <li><a href="/contact.html">联系我们</a></li>
+                    <li><a href="">Sitemap</a></li>
+                    <li><a href="">News</a></li>
                     <li><a href="">Careers </a></li>
                 </ul></div>
         </div>
@@ -380,15 +378,16 @@
             <div class="sss">
                 <h3>CRES Asia Residence</h3>
                 <p>
-                    CRES  Asia Residence will soon be <br/>
-                    launching their <br/>
-                    Iphone app.......coming soon! <br/>
+                    CRES  Asia Residence will soon be
+                    launching their
+                    Iphone app.......coming soon!
                 </p>
-                <div class="social-icons">
+                <div class="social-icons clearfix">
                     <img src="/misc/weibo-login-icon.png" alt=""/>
                     <img src="/misc/ff-icon.png" alt=""/>
                     <img src="/misc/weibo-icon.png" alt=""/>
-                    <img src="/misc/wechat-icon.png" alt=""/>
+                    <img src="/misc/wechat-icon.png" alt="" class="si-last"/>
+
                 </div>
             </div>
         </div>
