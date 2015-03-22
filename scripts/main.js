@@ -226,10 +226,16 @@
 		if (typeof BMap != 'undefined') {
 			// 百度地图API功能
 			var map = new BMap.Map("map");    // 创建Map实例
-			map.centerAndZoom(new BMap.Point(mapDom.data('lat'), mapDom.data('lng')), 11);  // 初始化地图,设置中心点坐标和地图级别
-			map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+			map.centerAndZoom(new BMap.Point(mapDom.data('lat'), mapDom.data('lng')), 16);  // 初始化地图,设置中心点坐标和地图级别
+			//map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
 			map.setCurrentCity(mapDom.data('city'));          // 设置地图显示的城市 此项是必须设置的
-			map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+			map.enableScrollWheelZoom(false);     //开启鼠标滚轮缩放
+
+			// 设置点
+			var point = new BMap.Point(mapDom.data('lat'), mapDom.data('lng'));
+			var icon = new BMap.Icon("http://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png", new BMap.Size(80, 100));
+			var marker = new BMap.Marker(point, {icon: icon});
+			map.addOverlay(marker);
 		}
 
 
