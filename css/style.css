@@ -583,7 +583,7 @@ a:hover {
     line-height: 120%;
     text-align: center;
     margin-top: 14px;
-      font-size: 0.9em;
+    font-size: 0.9em;
 }
 
 #footer-desc .fd-ss-4 .sss h3 {
@@ -816,6 +816,10 @@ td .ui-state-active, td .ui-state-hover {
   float: left;
   margin-right: 2.5%;
   margin-top: 3em;
+}
+
+.list-con-res li > a {
+    display: block;
 }
 
 .list-con-res .res-con2 {
