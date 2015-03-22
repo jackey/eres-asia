@@ -10,145 +10,142 @@
     <link rel="stylesheet" href="/css/reset.css"/>
     <link rel="stylesheet" href="/css/jquery.ui.css"/>
     <link rel="stylesheet" href="/css/style.css"/>
+    
     <!--[if IE 8]>
         <link rel="stylesheet" href="/css/ie8.css">
     <![endif]-->
 
     <!-- Mobile / iphone 6 plus-->
     <link rel="stylesheet" href="/css/414.css" media="screen and (max-width:414px)" />
-    
     <title>Eres Aisa</title>
 </head>
 <body>
-    <div class="mobile-menu-tragger"></div>
-    <div class="shadow-menu mobile-menu">
-        <ul class="menu1">
-            <li>
-                <a href="/aboutus.html">ABOUT US</a>
-            </li>
-            <li>
-                <a href="/residences.html">OUR PROPERTIES</a>
-            </li>
-            <li class="last">
-                <a href="/service.html">EXPERIENCE START</a>
-            </li>
-            <li>
-                <a href="/">INFORMATION CENTER</a>
-            </li>
-            <li>
-                <a href="/">BECOME A MEMBER</a>
-            </li>
-            <li class="last">
-                <a href="/contact.html">contact us</a>
-            </li>
-        </ul>
-    </div>
-    <div id="header" class="s">
-        <div class="w">
-            <div class="lang-bar">
-                <div class="lang lang-en"><a href="/index.html"><span>English</span></a></div>
-                <div class="lang lang-cn"><a href="/cn/index.html"><span>简体中文</span></a></div>
+<div class="mobile-menu-tragger"></div>
+<div class="shadow-menu mobile-menu">
+    <ul class="menu1">
+        <li>
+            <a href="/cn/aboutus.html">关于我们</a>
+        </li>
+        <li>
+            <a href="/cn/residences.html">公寓大赏</a>
+        </li>
+        <li class="last">
+            <a href="/cn/services.html">挚臻体验</a>
+        </li>
+        <li>
+            <a href="">信息中心</a>
+        </li>
+        <li>
+            <a href="">加入会员</a>
+        </li>
+        <li class="last">
+            <a href="/cn/contact.html">联系我们</a>
+        </li>
+    </ul>
+
+</div>
+<div id="header" class="s">
+    <div class="w">
+        <div class="lang-bar">
+            <div class="lang lang-en"><a href="/index.html"><span>English</span></a></div>
+            <div class="lang lang-cn"><a href="/cn/index.html"><span>简体中文</span></a></div>
+        </div>
+        <div class="logo hideme">
+            <img src="/misc/logo.png" alt=""/>
+        </div>
+        <div class="slideshow home-slideshow">
+            <div id="home-slideshow">
+                <img class="hideme" src="/misc/Slide2.jpg" alt=""/>
+                <img class="hideme" src="/misc/Slide3.jpg" alt=""/>
+                <img class="hideme" src="/misc/Slide5.jpg" alt=""/>
+                <img class="hideme" src="/misc/Slide6.jpg" alt=""/>
+                <img class="hideme" src="/misc/Slide7.jpg" alt=""/>
             </div>
-            <div class="logo hideme">
-                <img src="/misc/logo.png" alt=""/>
-            </div>
-            <div class="slideshow home-slideshow">
-                <div id="home-slideshow">
-                    <img src="/misc/Slide1.jpg" alt=""/>
-                    <img class="hideme" src="/misc/Slide2.jpg" alt=""/>
-                    <img class="hideme" src="/misc/Slide3.jpg" alt=""/>
-                    <img class="hideme" src="/misc/Slide5.jpg" alt=""/>
-                    <img class="hideme" src="/misc/Slide6.jpg" alt=""/>
-                    <img class="hideme" src="/misc/Slide7.jpg" alt=""/>
+            <div class="prev"></div>
+            <div class="next"></div>
+        </div>
+        <div class="book-form">
+            <form action="">
+                <input type="text" name="name" placeholder="输入城市或酒店"/>
+                <input type="text" name="email" placeholder="输入您的邮箱地址"/>
+
+                <div class="date-input">
+                    <input type="text" name="check-in-date" placeholder="入住日期" class="calender calender"/>
                 </div>
-                <div class="prev"></div>
-                <div class="next"></div>
-            </div>
-            <div class="book-form">
-                <form action="">
-                    <input type="text" name="name" placeholder="Enter a city or Hotel name"/>
-                    <input type="text" name="email" placeholder="Enter your email adress"/>
 
-                    <div class="date-input">
-                        <input type="text" name="check-in-date" placeholder="Check-In" class="calender calender"/>
-                    </div>
+                <div class="date-input">
+                    <input type="text" name="check-out-date" placeholder="退房日期" class="calender"/>
+                </div>
 
-                    <div class="date-input">
-                        <input type="text" name="check-out-date" placeholder="Check-Out" class="calender"/>
-                    </div>
-
-                    <div class="guest-c">
-                        <select name="guest" placeholder="2 Guests" class="guest">
-                            <option value="3">4 Guests</option>
-                            <option value="3">3 Guests</option>
-                            <option value="2">2 Guests</option>
-                            <option value="1">1 Guest</option>
-                        </select>
-                    </div>
-
-                    <a class="btn btn-book" href="javascript:void(0)">book</a>
-                </form>
-            </div>
-            <div class="down"></div>
+                <div class="guest-c">
+                    <select name="guest" placeholder="入住人数" class="guest">
+                        <option value="1">1位 客人</option>
+                        <option value="2">2位 客人</option>
+                        <option value="3">3位 客人</option>
+                        <option value="3">4位 客人</option>
+                    </select>
+                </div>
+                <a class="btn btn-book" href="javascript:void(0)">预定</a>
+            </form>
         </div>
+        <div class="down"></div>
     </div>
+</div>
 
-    <div id="web-navs" class="s">
-        <div class="w">
-            <div class="navs clearfix">
-                <ul class="menu1">
-                    <li class="logo-li">
-                        <div class="cc3"><a href="/index.html"><img src="/misc/small-logo1.png" alt=""></a></div>
-                    </li>
-                    <li>
-                        <a href="/aboutus.html">about us</a>
-                        <ul class="submenu">
-                            <li><a href="">Our Brands</a></li>
-                            <li><a href="">Our Vision</a></li>
-                            <li><a href="">Our Awards</a></li>
-                            <li><a href="">Join Us</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="/residences.html">OUR PROPERTIES</a>
-                        <ul class="submenu">
-                            <li><a href="/residences.html">SHANGHAI</a></li>
-                            <li><a href="/residences.html">NANTONG</a></li>
-                            <li><a href="/residences.html">Dalian</a></li>
-                        </ul>
-                    </li>
-                    <li class="last">
-                        <a href="">EXPERIENCE START</a>
-                        <ul class="submenu">
-                            <li><a href="/service.html">Our Service</a></li>
-                            <li><a href="/">Promotions</a></li>
-                            <li><a href="/">Residents Events</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">INFORMATION CENTER</a>
-                        <ul class="submenu">
-                            <li><a href="/">News Center</a></li>
-                            <li><a href="/">Video Share</a></li>
-                            <li><a href="/">Galleries</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">BECOME A MEMBER</a>
-                    </li>
-                    <li class="last">
-                        <a href="/contact.html">contact us</a>
-                    </li>
-                </ul>
-            </div>
+<div id="web-navs" class="s">
+    <div class="w">
+        <div class="navs clearfix">
+            <ul class="menu1">
+                <li class="logo-li">
+                    <div class="cc3"><a href="/index.html"><img src="/misc/small-logo1.png" alt=""></a></div>
+                </li>
+                <li>
+                    <a href="/cn/aboutus.html">关于我们</a>
+                    <ul class="submenu">
+                        <li><a href="">我们的品牌</a></li>
+                        <li><a href="">我们的愿景</a></li>
+                        <li><a href="">我们的荣誉</a></li>
+                        <li><a href="">加入我们</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/cn/residences.html">公寓大赏</a>
+                    <ul class="submenu">
+                        <li><a href="/cn/residences.html">上海</a></li>
+                        <li><a href="/cn/residences.html">南通</a></li>
+                        <li><a href="/cn/residences.html">大连</a></li>
+                    </ul>
+                </li>
+                <li class="last">
+                    <a href="">挚臻体验</a>
+                    <ul class="submenu">
+                        <li><a href="/cn/service.html">我们的服务</a></li>
+                        <li><a href="">最新优惠</a></li>
+                        <li><a href="">业主特享</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">信息中心</a>
+                    <ul class="submenu">
+                        <li><a href="">新闻动态</a></li>
+                        <li><a href="">视频欣赏</a></li>
+                        <li><a href="">图片分享</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">加入会员</a>
+                </li>
+                <li class="last">
+                    <a href="/cn/contact.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
             <div class="cc5"><a href="">book</a></div>
-            <div class="cc4"><a href="/index.html"><img src="/misc/small-logo1.png" alt=""></a></div>
+            <div class="cc4"><a href="/cn/index.html"><img src="/misc/small-logo1.png" alt=""></a></div>
             <h3>CRES&ASIA Group</h3>
-            <p>
-                As a subsidiary of CRESA Group, CRES&ASIA RESIDENCE GROUP manages and operates many high-end properties and serviced apartments in different cities in China. Its aim is to build Asia's leading brand of high-end serviced apartments and properties.
-            </p>
-        </div>
+        <p>CRES&ASIA RESIDENCE GROUP恺信亚洲管理集团作为CRES & ASIA GROUP集团的主要成员，旗下管理运营全国多个城市高端物业及数家高端服务式公寓，致力于打造亚洲地区领先的高端服务式住宅运营品牌。</p>
     </div>
+</div>
 
     <div id="residences" class="s">
         <div class="w">
@@ -161,149 +158,48 @@
                     </div>
                 </div>
             </div>
-            <div class="list-con-res list-con-res-mobile hideme">
-                <a href="" rel="rondell" title="">
-                    <img src="/misc/res1.jpg" alt="" class="cover">
-                    <div class="res-con2">
-                        <h3 class="title">CRES & Asia Residence</h3>
-                        <span class="at">@ Xuhui Bund</span>
-                    </div>
-
-                    <div class="res-con2 res-con3">
-                        <p class="p">No. 156, Kai Bin Road, Xuhui, Shanghai</p>
-                            <span class="desc">CRES & Asia Residence @ Xuhui Bund is a
-stunning serviced apartment complex offering
-only the best in luxury for our high-end
-tenants...</span>
-                    </div>
-                </a>
-                <a href="" rel="rondell">
-                    <img src="/misc/res2.jpg" alt="" class="cover">
-                    <div class="res-con2">
-                        <h3 class="title">CRES & Asia Residence</h3>
-                        <span class="at">@ Suhe Creek</span>
-                    </div>
-
-                    <div class="res-con2 res-con3">
-                        <p class="p">No.50, Lane 9, Qufu Road, Zhabei, Shanghai</p>
-                            <span class="desc">CRES & Asia Residence @ Suhe Bund is a
-stunning serviced apartment complex offering
-only the best in luxury for our high-end
-tenants...</span>
-                    </div>
-                </a>
-                <a href="" rel="rondell">
-                    <img src="/misc/res3.jpg" alt="" class="cover">
-                    <div class="res-con2">
-                        <h3 class="title">CRES & Asia Residence</h3>
-                        <span class="at">@ Gascogne Apartment</span>
-                    </div>
-
-                    <div class="res-con2 res-con3">
-                        <p class="p">No.1202, Huaihai Road (M), Xuhui, Shanghai
-                        </p>
-                            <span class="desc">Gascogne Apartment was built in 1935 with
-concrete frame structure and it was rebuilt
-these two years.The property covers an area
-of 4553.36 square meters...</span>
-                    </div>
-                </a>
-                <a rel="rondell" href="">
-                    <img src="/misc/res4.jpg" alt="" class="cover">
-                    <div class="res-con2">
-                        <h3 class="title">CRES & Asia Residence</h3>
-                        <span class="at">@ Eastern Villa </span>
-                    </div>
-
-                    <div class="res-con2 res-con3">
-                        <p class="p">No.866 Wuliu Avenue, Pudong, Shanghai
-                        </p>
-                            <span class="desc">CRES & Asia Residence @ Eastern Villa is
-located in Pudong, adject to Disney Land and
-Free Trade Zone, close to five-golf, four
-international schools, and the largest outlets...</span>
-                    </div>
-                </a>
-                <a href="">
-                    <img src="/misc/res5.jpg" alt="" class="cover">
-                    <div class="res-con2">
-                        <h3 class="title">CRES & Asia Residence</h3>
-                        <span class="at">@ Chateau Pinnacle</span>
-                    </div>
-
-                    <div class="res-con2 res-con3">
-                        <p class="p">Building 3, Lane 211, Xingfu Road,Changning</p>
-                            <span class="desc">The 27-storey tower B stands as a downtown
-landmark, with 53 luxuriously decorated
-suites. A limited number of duplex suites at
-the top stories...</span>
-                    </div>
-                </a>
-                <a href="">
-                    <img src="/misc/res6.jpg" alt="" class="cover">
-                    <div class="res-con2">
-                        <h3 class="title">CRES & Asia Residence</h3>
-                        <span class="at">@ MOET</span>
-                    </div>
-
-                    <div class="res-con2 res-con3">
-                        <p class="p">No.1515, Xietu Road, Xuhui, Shanghai</p>
-                            <span class="desc">CRES & Asia Residence @ MOET is located in
-the core area of Xuhui, four tracks surround,
-only 5-10 minutes to get to Xuhui Center, Dapuqiao and Xintiandi...</span>
-                    </div>
-                </a>
-            </div>
-            <div class="list-con-res list-con-res-desktop">
+            <div class="list-con-res">
                 <ul class="list clearfix">
                     <li class="item-hover-shadow">
-                        <a href="/residences/shanghai/residences_xuhuibund.html"><img src="/misc/res1.jpg" alt="" class="cover">
+                        <a href="/cn/residences/shanghai/residences_xuhuibund.html"><img src="/misc/res1.jpg" alt="" class="cover">
                         <div class="res-con2">
                             <h3 class="title">CRES & Asia Residence</h3>
-                            <span class="at">@ Xuhui Bund</span>
+                            <span class="at">@海珀旭辉</span>
                         </div>
 
                         <div class="res-con2 res-con3">
-                            <p class="p">No. 156, Kai Bin Road, Xuhui, Shanghai</p>
-                            <span class="desc">CRES & Asia Residence @ Xuhui Bund is a 
-stunning serviced apartment complex offering 
-only the best in luxury for our high-end 
-tenants...</span>
+                            <p class="p">徐汇区凯滨路156-158号</p>
+                            <span class="desc">
+                                海珀旭晖是地处上海市中心地带的酒店式服务公寓，提供24小时客服、会议室、餐厅、洗衣服务、健身桑拿，给商务人士提供舒适、惬意的生活。
+                            </span>
                         </div></a>
                     </li>
                     <li class="item-hover-shadow">
-                        <a href="/residences/shanghai/residences_suhecreek.html"><img src="/misc/res2.jpg" alt="" class="cover">
+                        <a href="/cn/residences/shanghai/residences_suhecreek.html"><img src="/misc/res2.jpg" alt="" class="cover">
                         <div class="res-con2">
                             <h3 class="title">CRES & Asia Residence</h3>
-                            <span class="at">@ Suhe Creek</span>
+                            <span class="at">@苏河湾</span>
                         </div>
 
                         <div class="res-con2 res-con3">
-                            <p class="p">No.50, Lane 9, Qufu Road, Zhabei, Shanghai</p>
-                            <span class="desc">CRES & Asia Residence @ Suhe Bund is a 
-stunning serviced apartment complex offering 
-only the best in luxury for our high-end 
-tenants...</span>
+                            <p class="p">上海市闸北区曲阜路9弄50号</p>
+                            <span class="desc">苏河湾是地处上海市中心地带的酒店式服务公寓，提供24小时客服、会议室、餐厅、洗衣服务、健身，给商务人士提供舒适、惬意的生活。</span>
                         </div></a>
                     </li>
                     <li class="item-hover-shadow">
-                        <a href="/residences/shanghai/residences_gascogneapartment.html"><img src="/misc/res3.jpg" alt="" class="cover">
+                        <a href="/cn/residences/shanghai/residences_gascogneapartment.html"><img src="/misc/res3.jpg" alt="" class="cover">
                         <div class="res-con2">
                             <h3 class="title">CRES & Asia Residence</h3>
-                            <span class="at">@ Gascogne Apartment</span>
+                            <span class="at">@淮海公寓</span>
                         </div>
 
                         <div class="res-con2 res-con3">
-                            <p class="p">No.1202, Huaihai Road (M), Xuhui, Shanghai
-</p>
-                            <span class="desc">Gascogne Apartment was built in 1935 with 
-concrete frame structure and it was rebuilt 
-these two years.The property covers an area 
-of 4553.36 square meters...</span>
+                            <p class="p">徐汇区淮海中路1202号</p>
+                            <span class="desc">淮海公寓位于法租界中心地带，距离1号线步行仅2分钟，交通方便。 所有房型面积为260-330 平方,共计37套高档公寓，现入住率为95%。 </span>
                         </div></a>
                     </li>
                     <li class="llast item-hover-shadow" >
-                        <a href="/residences/shanghai/residences_easternvilla.html"><img src="/misc/res4.jpg" alt="" class="cover">
+                        <a href="/cn/residences/shanghai/residences_easternvilla.html"><img src="/misc/res4.jpg" alt="" class="cover">
                         <div class="res-con2">
                             <h3 class="title">CRES & Asia Residence</h3>
                             <span class="at">@ Eastern Villa </span>
@@ -321,32 +217,29 @@ international schools, and the largest outlets...</span>
                 </ul>
                 <ul class="list listss clearfix">
                     <li class="item-hover-shadow">
-                        <a href="/residences/shanghai/residences_chateaupinnacle.html"><img src="/misc/res5.jpg" alt="" class="cover">
+                        <a href="/cn/residences/shanghai/residences_chateaupinnacle.html"><img src="/misc/res5.jpg" alt="" class="cover">
                         <div class="res-con2">
                             <h3 class="title">CRES & Asia Residence</h3>
-                            <span class="at">@ Chateau Pinnacle</span>
+                            <span class="at">@华山夏都</span>
                         </div>
 
                         <div class="res-con2 res-con3">
-                            <p class="p">Building 3, Lane 211, Xingfu Road,Changning</p>
-                            <span class="desc">The 27-storey tower B stands as a downtown 
-landmark, with 53 luxuriously decorated 
-suites. A limited number of duplex suites at 
-the top stories...</span>
+                            <p class="p">长宁区幸福路211弄3号楼</p>
+                            <span class="desc">
+                                华山夏都作为一个市区的标志性建筑，共有２７层，５３套豪华套房，顶层还有少量的复式，视野开阔，是一个不错的选择．欧洲复古式的屋顶，采用明亮的玻璃墙设计．
+                            </span>
                         </div></a>
                     </li>
                     <li class="item-hover-shadow">
-                        <a href="/residences/shanghai/residences_moet.html"><img src="/misc/res6.jpg" alt="" class="cover">
+                        <a href="/cn/residences/shanghai/residences_moet.html"><img src="/misc/res6.jpg" alt="" class="cover">
                         <div class="res-con2">
                             <h3 class="title">CRES & Asia Residence</h3>
-                            <span class="at">@ MOET</span>
+                            <span class="at">@银亿徐汇酩悦</span>
                         </div>
 
                         <div class="res-con2 res-con3">
-                            <p class="p">No.1515, Xietu Road, Xuhui, Shanghai</p>
-                            <span class="desc">CRES & Asia Residence @ MOET is located in 
-the core area of Xuhui, four tracks surround, 
-only 5-10 minutes to get to Xuhui Center, Dapuqiao and Xintiandi...</span>
+                            <p class="p">徐汇区斜土路1515号</p>
+                            <span class="desc">银亿徐汇酩悦地处徐汇核心地段，4条轨道环绕，步行5分钟即可轻松到达，徐家汇、打浦桥、新天地等...</span>
                         </div></a>
                     </li>
                 </ul>
@@ -361,33 +254,20 @@ only 5-10 minutes to get to Xuhui Center, Dapuqiao and Xintiandi...</span>
                     </div>
                 </div>
             </div>
-
-            <div class="list-con-res list-con-res-mobile hideme">
-                <a href="" rel="rondell" title="">
-                    <img src="/misc/res7.jpg" alt="" class="cover">
-                    <div class="res-con2">
-                        <h3 class="title">CRES & Asia Residence</h3>
-                        <span class="at">@ Suhe Creek</span>
-                    </div>
-
-                    <div class="res-con2 res-con3">
-                        <p class="p">No.50, Lane 9, Qufu Road, Zhabei, Shanghai</p>
-                        <span class="desc">CRES & Asia Residence @ Suhe Bund is a stunning serviced apartment complex offering only the best in luxury for our high-end tenants...</span>
-                    </div>
-                </a>
-            </div>
-            <div class="list-con-res list-con-res-desktop">
+            <div class="list-con-res">
                 <ul class="list clearfix">
                     <li class="item-hover-shadow">
-                        <a href="/residences/dalian/residences_starcapital.html"><img src="/misc/res7.jpg" alt="" class="cover">
+                        <a href="/cn/residences/dalian/residences_starcapital.html"><img src="/misc/res7.jpg" alt="" class="cover">
                         <div class="res-con2">
                             <h3 class="title">CRES & Asia Residence</h3>
-                            <span class="at">@ Suhe Creek</span>
+                            <span class="at">@ 大连星光耀广场</span>
                         </div>
 
                         <div class="res-con2 res-con3">
-                            <p class="p">No.50, Lane 9, Qufu Road, Zhabei, Shanghai</p>
-                            <span class="desc">CRES & Asia Residence @ Suhe Bund is a stunning serviced apartment complex offering only the best in luxury for our high-end tenants...</span>
+                            <p class="p">大连</p>
+                            <span class="desc">
+                                大连星光耀广场是一幢45-50楼的酒店式服务公寓，总共280套出租单元，其中110套一房110套两房，60套三房，结合办公、住宅、商业为一体，真正做到拎包入住，省时省力。
+                            </span>
                         </div></a>
                     </li>
                 </ul>
@@ -402,143 +282,124 @@ only 5-10 minutes to get to Xuhui Center, Dapuqiao and Xintiandi...</span>
                     </div>
                 </div>
             </div>
-            <div class="list-con-res list-con-res-mobile hideme">
-                <a href="" rel="rondell" title="">
-                    <img src="/misc/res8.jpg" alt="" class="cover">
-                    <div class="res-con2">
-                        <h3 class="title">CRES & Asia Residence</h3>
-                        <span class="at">@ Suhe Creek</span>
-                    </div>
-
-                    <div class="res-con2 res-con3">
-                        <p class="p">No.50, Lane 9, Qufu Road, Zhabei, Shanghai</p>
-                        <span class="desc">CRES & Asia Residence @ Suhe Bund is a stunning serviced apartment complex offering only the best in luxury for our high-end tenants...</span>
-                    </div>
-                </a>
-            </div>
-            <div class="list-con-res list-con-res-desktop">
+            <div class="list-con-res">
                 <ul class="list clearfix">
                     <li class="item-hover-shadow">
-                        <a href="/residences/nantong/residences_starcapital.html"><img src="/misc/res8.jpg" alt="" class="cover">
+                        <a href="/cn/residences/nantong/residences_starcapital.html"><img src="/misc/res8.jpg" alt="" class="cover">
                         <div class="res-con2">
                             <h3 class="title">CRES & Asia Residence</h3>
-                            <span class="at">@ Suhe Creek</span>
+                            <span class="at">@南通星光耀广场</span>
                         </div>
 
                         <div class="res-con2 res-con3">
-                            <p class="p">No.50, Lane 9, Qufu Road, Zhabei, Shanghai</p>
-                            <span class="desc">CRES & Asia Residence @ Suhe Bund is a stunning serviced apartment complex offering only the best in luxury for our high-end tenants...</span>
+                            <p class="p">南通</p>
+                            <span class="desc">
+                                南通星光耀项目总占地约11.8万，总建筑面积约43万方，住宅占地面积约5.7万方，住宅总建筑面积约20万方。建筑设计采用ART DECO风格。                             </span>
                         </div></a>
                     </li>
                 </ul>
             </div>
 
-        </div>
-    </div>
-
-    <div id="footer-mobile" class="s">
-        <div class="w">
-            <div class="fd-ss fd-ss-1">
-                <ul class="f-navs-1 clearfix">
-                    <li><a href="">ABOUT US</a></li>
-                    <li><a href="">NEWS</a></li>
-                    <li><a href="">RESIDENCES</a></li>
-                </ul>
-                <ul class="f-navs-2 clearfix">
-                    <li><a href="">SERVICES</a></li>
-                    <li class="lss2"><a href="">CONTACT US</a></li>
-                </ul>
-            </div>
-            <div class="fd-ss fd-ss-4 clearfix">
-                <div class="social-icons clearfix">
-                    <img src="/misc/weibo-login-icon.png" alt=""/>
-                    <img src="/misc/ff-icon.png" alt=""/>
-                    <img src="/misc/weibo-icon.png" alt=""/>
-                    <img src="/misc/wechat-icon.png" alt=""/>
-                </div>
-            </div>
-            <div class="fd-ss fd-ss-6">
-                <p>Copyright © 2015. All Rights Reserved.</p>
-                <img src="/misc/tongji.png" alt=""/>
-            </div>
-        </div>
-    </div>
-
-    <div id="footer-desc" class="s">
-        <div class="w clearfix">
-            <div class="fd-ss fd-ss-1">
-                <ul class="f-navs-1 clearfix">
-                    <li class="nav-1"><a href="/aboutus.html">ABOUT US</a></li>
-                    <li class="nav-2"><a href="">NEWS</a></li>
-                    <li class="nav-3"><a href="/residences.html">RESIDENCES</a></li>
-                </ul>
-                <ul class="f-navs-2 clearfix">
-                    <li class="nav-4"><a href="/service.html">SERVICES</a></li>
-                    <li class="lss2 nav-5"><a href="/contact.html">CONTACT US</a></li>
-                </ul>
-                <div class="sd1">
-                    <p>
-                        Hotline:86 021-66972009 <br/>
-                        Ba,No 50, Lane 9, Qu Fu rd Shanghai <br/>
-                        20085
-                    </p>
-                </div>
-            </div>
-
-            <div class="fd-ss fd-ss-2">
-                <div class="ww"><h4>City guide</h4>
-                    <ul>
-                        <li><a href="/residences.html">Shanghai</a></li>
-                        <li><a href="/residences.html">Dalian</a></li>
-                        <li><a href="/residences.html">Nantong</a></li>
-                    </ul></div>
-            </div>
-
-            <div class="fd-ss fd-ss-3">
-                <div class="ww"><h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="/contact.html">Contact us</a></li>
-                        <li><a href="">Sitemap</a></li>
-                        <li><a href="">News</a></li>
-                        <li><a href="">Careers </a></li>
-                    </ul></div>
-            </div>
-
-            <div class="fd-ss fd-ss-4">
-                <img src="/misc/iphone-icon.png" alt=""/>
-                <div class="sss">
-                    <h3>CRES Asia Residence</h3>
-                    <p>
-                        CRES  Asia Residence will soon be
-                        launching their
-                        Iphone app.......coming soon!
-                    </p>
-                    <div class="social-icons clearfix">
-                        <img src="/misc/weibo-login-icon.png" alt=""/>
-                        <img src="/misc/ff-icon.png" alt=""/>
-                        <img src="/misc/weibo-icon.png" alt=""/>
-                        <img src="/misc/wechat-icon.png" alt="" class="si-last"/>
-
+            <div id="footer-mobile" class="s">
+                <div class="w">
+                    <div class="fd-ss fd-ss-1">
+                        <ul class="f-navs-1 clearfix">
+                            <li><a href="">ABOUT US</a></li>
+                            <li><a href="">新闻动态</a></li>
+                            <li><a href="">RESIDENCES</a></li>
+                        </ul>
+                        <ul class="f-navs-2 clearfix">
+                            <li><a href="">SERVICES</a></li>
+                            <li class="lss2"><a href="">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                    <div class="fd-ss fd-ss-4 clearfix">
+                        <div class="social-icons clearfix">
+                            <img src="/misc/weibo-login-icon.png" alt=""/>
+                            <img src="/misc/ff-icon.png" alt=""/>
+                            <img src="/misc/weibo-icon.png" alt=""/>
+                            <img src="/misc/wechat-icon.png" alt=""/>
+                        </div>
+                    </div>
+                    <div class="fd-ss fd-ss-6">
+                        <p>Copyright © 2015. All Rights Reserved.</p>
+                        <img src="/misc/tongji.png" alt=""/>
                     </div>
                 </div>
             </div>
 
-            <div class="fd-ss fd-ss-5">
-                <img src="/misc/qrcode.png" alt=""/>
-            </div>
+            <div id="footer-desc" class="s">
+                <div class="w clearfix">
+                    <div class="fd-ss fd-ss-1">
+                        <ul class="f-navs-1 clearfix">
+                            <li class="nav-1"><a href="/aboutus.html">关于我们</a></li>
+                            <li class="nav-2"><a href="">信息中心</a></li>
+                            <li class="nav-3"><a href="/residences.html">公寓大赏</a></li>
+                        </ul>
+                        <ul class="f-navs-2 clearfix">
+                            <li class="nav-4"><a href="/service.html">我们的服务</a></li>
+                            <li class="lss2 nav-5"><a href="/contact.html">联系我们</a></li>
+                        </ul>
+                        <div class="sd1">
+                            <p>
+                                热线:86 021-66972009 <br/>
+                                上海市闸北区曲阜路9弄50号<br/>
+                                20085
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="fd-ss fd-ss-2">
+                        <div class="ww"><h4>城市指南</h4>
+                            <ul>
+                                <li><a href="/residences.html">上海</a></li>
+                                <li><a href="/residences.html">大连</a></li>
+                                <li><a href="/residences.html">南通</a></li>
+                            </ul></div>
+                    </div>
+
+                    <div class="fd-ss fd-ss-3">
+                        <div class="ww"><h4>快递链接</h4>
+                            <ul>
+                                <li><a href="/contact.html">联系我们</a></li>
+                                <li><a href="">网站地图</a></li>
+                                <li><a href="">新闻动态</a></li>
+                                <li><a href="">加入我们 </a></li>
+                            </ul></div>
+                    </div>
+
+                    <div class="fd-ss fd-ss-4">
+                        <img src="/misc/iphone-icon.png" alt=""/>
+                        <div class="sss">
+                            <h3>CRES Asia Residence</h3>
+                            <p>
+                                恺信亚洲投资管理集团手机APP将很快上线，尽请期待
+                            </p>
+                            <div class="social-icons clearfix">
+                                <img src="/misc/weibo-login-icon.png" alt=""/>
+                                <img src="/misc/ff-icon.png" alt=""/>
+                                <img src="/misc/weibo-icon.png" alt=""/>
+                                <img src="/misc/wechat-icon.png" alt="" class="si-last"/>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fd-ss fd-ss-5">
+                        <img src="/misc/qrcode.png" alt=""/>
+                    </div>
 
 
-            <div class="fd-ss fd-ss-6">
-                <p>Copyright © 2015. All Rights Reserved.</p>
-                <img src="/misc/tongji.png" alt=""/>
+                    <div class="fd-ss fd-ss-6">
+                        <p>Copyright © 2015. All Rights Reserved.</p>
+                        <img src="/misc/tongji.png" alt=""/>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
     <script type="text/javascript" src="/scripts/jquery.min.js"></script>
     <script type="text/javascript" src="/scripts/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/scripts/jquery.cycle.js"></script>
-    <script type="text/javascript" src="/scripts/modernizr.js"></script>
     <script type="text/javascript" src="/scripts/main.js"></script>
 </body>
 </html>
