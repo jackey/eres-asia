@@ -1946,6 +1946,17 @@ td .ui-state-active, td .ui-state-hover {
     transform: rotate(180deg);
 }
 
+#web-navs  >.w > h4 {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    font-family: "latobold";
+    letter-spacing: 4px;
+    width: 56%;
+    margin: 0 auto;
+    font-size: 0.8em;
+    color: #a0a0a0;
+}
 
 
 
