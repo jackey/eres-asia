@@ -271,10 +271,60 @@
 			if ($(scrollToEl).hasClass('exp')){
 				$.scrollTo($(scrollToEl).offset()['top'] - 50, 500);
 			}
+			// 显示图片
+			else if ($(scrollToEl).hasClass('pics')) {
+				var resSlideShow = $('.slideshow-pics-res');
+				if (resSlideShow.size()) {
+					resSlideShow.removeClass('hideme');
+					setTimeout(function () {
+						resSlideShow.css({opacity: 1});
+						if (resSlideShow.data('cycled')) {
+							resSlideShow.find('>.slidec').cycle('resume');
+						}
+						else {
+							var total = resSlideShow.find('>.slidec').children().size();
+							var totalEl = $('.slideshow-pics-res .counter .total');
+							var curEl = $('.slideshow-pics-res .counter .cur');
+							totalEl.text(total);
+							curEl.text(1);
+							function setPageSize(currSildeEl) {
+								resSlideShow.find('>.slidec').children().each(function (index) {
+									if ($(this).attr('src') == $(currSildeEl).attr('src')) {
+										curEl.text(index + 1);
+									}
+								});
+							}
+							resSlideShow.find('>.slidec').cycle({
+								prev: '.home-slideshow .prev',
+								next: '.home-slideshow .next',
+								fx: 'scrollLeft',
+								fit: true,
+								after: function (currSlideElement, nextSlideElement, options) {
+									setPageSize(nextSlideElement);
+								}
+							});
+							resSlideShow.data('cycled', true);
+						}
+					});
+				}
+			}
 			else {
 				$.scrollTo(scrollToEl, 500);
 			}
 		});
+
+		// res detail pic 点击
+		$('.slideshow-pics-res .closer').click(function () {
+			var resSlideShow = $('.slideshow-pics-res');
+			resSlideShow.css({opacity: 0});
+			setTimeout(function () {
+				resSlideShow.addClass('hideme');
+				resSlideShow.removeAttr('style');
+				resSlideShow.find('>.slidec').cycle('pause');
+			}, 500);
+		});
+
+
 
     });
 })(jQuery);
