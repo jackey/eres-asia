@@ -223,19 +223,39 @@
 		mapDom.css({
 			height: mapDom.data('height')
 		});
-		if (typeof BMap != 'undefined') {
-			// 百度地图API功能
-			var map = new BMap.Map("map");    // 创建Map实例
-			map.centerAndZoom(new BMap.Point(mapDom.data('lat'), mapDom.data('lng')), 16);  // 初始化地图,设置中心点坐标和地图级别
-			//map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
-			map.setCurrentCity(mapDom.data('city'));          // 设置地图显示的城市 此项是必须设置的
-			map.enableScrollWheelZoom(false);     //开启鼠标滚轮缩放
 
-			// 设置点
-			var point = new BMap.Point(mapDom.data('lat'), mapDom.data('lng'));
-			var icon = new BMap.Icon("http://pic002.cnblogs.com/images/2011/308287/2011091516161618.png", new BMap.Size(80, 100));
-			var marker = new BMap.Marker(point);
-			map.addOverlay(marker);
+		//if (typeof BMap != 'undefined') {
+		//	// 百度地图API功能
+		//	var map = new BMap.Map("map");    // 创建Map实例
+		//	map.centerAndZoom(new BMap.Point(mapDom.data('lat'), mapDom.data('lng')), 16);  // 初始化地图,设置中心点坐标和地图级别
+		//	//map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+		//	map.setCurrentCity(mapDom.data('city'));          // 设置地图显示的城市 此项是必须设置的
+		//	map.enableScrollWheelZoom(false);     //开启鼠标滚轮缩放
+        //
+		//	// 设置点
+		//	var point = new BMap.Point(mapDom.data('lat'), mapDom.data('lng'));
+		//	var icon = new BMap.Icon("http://pic002.cnblogs.com/images/2011/308287/2011091516161618.png", new BMap.Size(80, 100));
+		//	var marker = new BMap.Marker(point);
+		//	map.addOverlay(marker);
+		//}
+
+		if (typeof AMap != 'undefined') {
+			var position = new AMap.LngLat(mapDom.data('lat'), mapDom.data('lng'));
+			var map = new AMap.Map('map', {
+				view: new AMap.View2D({
+					center: position,
+					zoom: 16,
+					rotation: 0
+				}),
+				lang: 'zh_cn'
+			});
+
+			var maker = new AMap.Marker({
+				map: map,
+				position: position,
+				offset: new AMap.Pixel(-10,-34),
+				icon: '/misc/marker.png'
+			});
 		}
 
 
