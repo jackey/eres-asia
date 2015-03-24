@@ -535,8 +535,8 @@ a:hover {
 #footer-desc .sd1 {
     clear: both;
     margin-top: 40px;
-    color: #848789;
     line-height: 120%;
+    color: #b3acad;
 }
 
 #footer-desc .fd-ss-2, #footer-desc .fd-ss-3 {
@@ -562,9 +562,9 @@ a:hover {
 }
 
 #footer-desc .fd-ss-2 ul a , #footer-desc .fd-ss-3 ul a {
-    color: #79797a;
     line-height: 120%;
     font-size: 0.9em;
+    color: #b3acad;
 }
 
 #footer-desc .fd-ss-4 > img {
@@ -579,7 +579,7 @@ a:hover {
 }
 
 #footer-desc .fd-ss-4 .sss p {
-    color: #848789;
+    color: #b3acad;
     line-height: 120%;
     text-align: left;
     margin-top: 14px;
@@ -624,8 +624,8 @@ a:hover {
 }
 
 #footer-desc .fd-ss-6 p {
-    color: #848789;
       font-size: 0.9em;
+    color: #b3acad;
 }
 
 .sd1 p {
@@ -854,10 +854,11 @@ td .ui-state-active, td .ui-state-hover {
 }
 
 .res-con2 .desc {
-  color: #737273;
   margin-top: 9px;
   display: inline-block;
   font-size: 0.8em;
+    color: #b3acad;
+
 }
 
 .res-con3 {
