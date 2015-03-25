@@ -351,6 +351,64 @@
 		});
 
 
+		// 预定房间点击
+		$('.btn-book').click(function () {
+			var form = $('.book-form');
+
+			var button = $(this);
+			var city = $('input[name="name"]', form);
+			var email = $('input[name="email"]', form);
+			var indate = $('input[name="check-in-date"]', form);
+			var outdate = $('input[name="check-out-date"]', form);
+			var people = $('select[name="guest"]', form);
+
+			if (city.val().length <= 0) {
+				city.focus();
+				return;
+			}
+
+			if (email.val().length <= 0) {
+				email.focus();
+				return;
+			}
+
+			if (indate.val().length <= 0) {
+				indate.focus();
+				return;
+			}
+
+			if (outdate.val().length <= 0) {
+				outdate.focus();
+				return;
+			}
+
+			$.ajax({
+				url: 'http://eresadmin.fumer.cn/mail.php',
+				data: {city: city.val(), email: email.val(), in: indate.val(), out: outdate.val(), pc: people.val()},
+				dataType: 'jsonp',
+				success: function (response) {
+					var url = window.location.href;
+					if (url.indexOf('en')) {
+						button.text('book success');
+					}
+					else {
+						button.text('预定成功');
+					}
+
+					setTimeout(function () {
+						var url = window.location.href;
+						if (url.indexOf('en')) {
+							button.text('book');
+						}
+						else {
+							button.text('预定');
+						}
+					}, 1000);
+				}
+			});
+		});
+
+
 
     });
 })(jQuery);
